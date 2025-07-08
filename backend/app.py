@@ -7,7 +7,7 @@ from modules.risk_analyzer import get_risk_level
 from modules.optimizer import optimize_schedule
 
 app = Flask(__name__, static_folder='../frontend', static_url_path='/')
-CORS(app)  # Enable CORS globally
+CORS(app) 
 
 @app.route('/')
 def index():
