@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vaccination Schedule Optimizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Vaccination Schedule Optimizer</h2>
+    <form id="form" class="form-card">
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+      </div>
+      <div class="form-group">
+        <label for="condition">Health Condition:</label>
+        <select id="condition" required>
+          <option value="none">None</option>
+          <option value="asthma">Asthma</option>
+          <option value="diabetes">Diabetes</option>
+          <option value="heart disease">Heart Disease</option>
+          <option value="pregnant">Pregnant</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="region">Region:</label>
+        <select id="region" required>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Africa">Africa</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+      <button type="submit">Generate Schedule</button>
+    </form>
+    <div id="loading">
+      <div class="loader"></div>
+    </div>
+
+    <h3 class="result-title">Recommended Schedule:</h3>
+    <div id="result">
+      <div class="card">
+        <span class="vaccine">Fill out the form and click submit.</span>
+      </div>
+    </div>
+
+    <h3 class="result-title">Reminder Alerts:</h3>
+    <div id="reminders">
+      <!-- Reminders will appear here -->
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+    const reminders = document.getElementById('reminders');
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      document.getElementById('loading').style.display = 'flex';
+      result.innerHTML = '';
+      reminders.innerHTML = '';
+
+      const age = parseInt(document.getElementById('age').value);
+      const condition = document.getElementById('condition').value;
+      const region = document.getElementById('region').value;
+
+      try {
+        const response = await fetch('http://localhost:5000/generate_schedule', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ age, condition, region })
+        });
+        const data = await response.json();
+
+        if (data.schedule.length === 0) {
+          result.innerHTML = `<p class="no-data">No vaccines found for the provided details.</p>`;
+        } else {
+          data.schedule.forEach(item => {
+            result.innerHTML += `
+              <div class="card">
+                <h4>📅 ${item.date} (Day ${item.day})</h4>
+                <p><strong>Vaccine:</strong> ${item.vaccine}</p>
+                <p><strong>Reason:</strong> ${item.reason}</p>
+              </div>
+            `;
+          });
+        }
+
+        if (data.reminders.length === 0) {
+          reminders.innerHTML = `<p class="no-data">No reminders available.</p>`;
+        } else {
+          data.reminders.forEach(reminder => {
+            reminders.innerHTML += `
+              <div class="card reminder">
+                <p><strong>${reminder.reminder_date}:</strong> ${reminder.message}</p>
+              </div>
+            `;
+          });
+        }
+
+      } catch (err) {
+        result.innerHTML = `<p class="no-data">Error fetching schedule. Please try again.</p>`;
+        reminders.innerHTML = '';
+      } finally {
+        document.getElementById('loading').style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1001 @@
+Patient_ID,Age,Age_Group,Health_Condition,Country,Region,Vaccine,Recommended_Date,Risk_Score,Source
+P0000,20,Adult,none,Nigeria,Africa,Influenza,2024-12-30,9.95,WHO
+P0001,89,Senior,heart disease,Japan,Asia,Shingles,2024-02-28,2.72,CDC
+P0002,34,Adult,asthma,France,Europe,COVID-19,2024-08-27,4.98,CDC
+P0003,17,Teen,none,Germany,Europe,Tdap,2024-01-15,0.15,UNICEF
+P0004,26,Adult,diabetes,Nigeria,Africa,COVID-19,2024-04-02,5.51,WHO
+P0005,53,Adult,pregnant,India,Asia,Influenza,2024-08-01,6.86,UNICEF
+P0006,89,Senior,heart disease,Mexico,North America,Shingles,2024-02-22,8.18,UNICEF
+P0007,41,Adult,none,Nigeria,Africa,COVID-19,2024-08-24,7.14,UNICEF
+P0008,16,Teen,none,Australia,Oceania,HPV,2024-12-12,2.92,WHO
+P0009,5,Child,asthma,Nigeria,Africa,DTaP Booster,2024-01-20,7.25,WHO
+P0010,79,Senior,heart disease,Japan,Asia,Shingles,2024-12-30,3.35,WHO
+P0011,57,Adult,asthma,Japan,Asia,Influenza,2024-05-06,5.2,Govt Initiative
+P0012,51,Adult,asthma,Canada,North America,COVID-19,2024-12-11,9.45,UNICEF
+P0013,25,Adult,heart disease,USA,North America,Influenza,2024-11-28,2.21,UNICEF
+P0014,25,Adult,pregnant,Japan,Asia,COVID-19,2024-03-13,5.73,WHO
+P0015,31,Adult,heart disease,Nigeria,Africa,Influenza,2024-09-13,5.33,UNICEF
+P0016,84,Senior,none,Nigeria,Africa,Pneumococcal,2024-03-28,8.28,UNICEF
+P0017,46,Adult,asthma,Brazil,South America,COVID-19,2024-08-25,2.79,UNICEF
+P0018,59,Adult,none,India,Asia,Influenza,2024-04-24,9.25,CDC
+P0019,29,Adult,diabetes,Germany,Europe,Influenza,2024-07-11,0.19,CDC
+P0020,35,Adult,asthma,USA,North America,COVID-19,2024-11-17,2.97,Govt Initiative
+P0021,65,Senior,none,Canada,North America,Pneumococcal,2024-10-31,2.13,Govt Initiative
+P0022,58,Adult,heart disease,Nigeria,Africa,Influenza,2024-09-24,4.88,CDC
+P0023,90,Senior,asthma,Brazil,South America,Pneumococcal,2024-12-08,5.03,UNICEF
+P0024,76,Senior,none,Mexico,North America,Shingles,2024-08-10,6.34,UNICEF
+P0025,57,Adult,asthma,Japan,Asia,Influenza,2024-12-28,6.67,Govt Initiative
+P0026,81,Senior,asthma,India,Asia,Shingles,2024-07-29,4.99,WHO
+P0027,10,Child,none,India,Asia,MMR Booster,2024-10-29,3.5,UNICEF
+P0028,7,Child,none,USA,North America,DTaP Booster,2024-01-07,3.46,WHO
+P0029,50,Adult,asthma,Nigeria,Africa,Influenza,2024-10-18,6.59,CDC
+P0030,58,Adult,diabetes,Brazil,South America,COVID-19,2024-08-21,8.72,UNICEF
+P0031,33,Adult,asthma,Mexico,North America,COVID-19,2024-01-11,0.82,Govt Initiative
+P0032,26,Adult,asthma,Nigeria,Africa,COVID-19,2024-01-24,2.46,WHO
+P0033,39,Adult,pregnant,Japan,Asia,Influenza,2024-04-15,2.4,CDC
+P0034,87,Senior,heart disease,France,Europe,Shingles,2024-12-21,7.51,UNICEF
+P0035,67,Senior,asthma,USA,North America,Pneumococcal,2024-03-25,0.83,CDC
+P0036,3,Toddler,asthma,Japan,Asia,Hib,2024-01-22,5.54,UNICEF
+P0037,44,Adult,asthma,Germany,Europe,COVID-19,2024-02-27,1.0,CDC
+P0038,15,Teen,heart disease,USA,North America,Tdap,2024-05-13,8.89,WHO
+P0039,39,Adult,heart disease,Nigeria,Africa,Influenza,2024-12-02,4.65,WHO
+P0040,52,Adult,pregnant,Australia,Oceania,COVID-19,2024-07-02,7.66,UNICEF
+P0041,8,Child,asthma,Canada,North America,MMR Booster,2024-01-23,8.67,WHO
+P0042,0,Infant,heart disease,Mexico,North America,Polio,2024-10-07,0.76,CDC
+P0043,31,Adult,asthma,Germany,Europe,COVID-19,2024-05-30,0.24,WHO
+P0044,13,Teen,none,Canada,North America,Tdap,2024-06-28,4.36,Govt Initiative
+P0045,85,Senior,pregnant,USA,North America,Shingles,2024-01-17,9.08,CDC
+P0046,57,Adult,pregnant,India,Asia,Influenza,2024-09-29,8.18,CDC
+P0047,79,Senior,diabetes,France,Europe,Shingles,2024-03-17,7.13,UNICEF
+P0048,2,Toddler,diabetes,Canada,North America,DTaP,2024-11-05,4.11,CDC
+P0049,35,Adult,diabetes,France,Europe,Influenza,2024-08-25,1.54,WHO
+P0050,0,Infant,diabetes,Canada,North America,Hepatitis B,2024-11-24,7.11,WHO
+P0051,88,Senior,asthma,Nigeria,Africa,Shingles,2024-07-12,1.86,CDC
+P0052,25,Adult,diabetes,Germany,Europe,COVID-19,2024-05-01,2.47,CDC
+P0053,55,Adult,pregnant,France,Europe,COVID-19,2024-09-22,5.67,WHO
+P0054,59,Adult,pregnant,Japan,Asia,Influenza,2024-04-02,6.72,WHO
+P0055,79,Senior,heart disease,Germany,Europe,Shingles,2024-12-30,5.51,Govt Initiative
+P0056,62,Senior,pregnant,France,Europe,Shingles,2024-10-05,2.94,WHO
+P0057,26,Adult,pregnant,USA,North America,Influenza,2024-04-11,0.47,Govt Initiative
+P0058,34,Adult,heart disease,Nigeria,Africa,Influenza,2024-07-24,7.16,UNICEF
+P0059,74,Senior,heart disease,France,Europe,Shingles,2024-11-26,4.72,WHO
+P0060,63,Senior,asthma,India,Asia,Pneumococcal,2024-06-17,3.66,Govt Initiative
+P0061,3,Toddler,diabetes,Japan,Asia,Hib,2024-01-30,1.84,Govt Initiative
+P0062,66,Senior,pregnant,Mexico,North America,Pneumococcal,2024-03-15,6.34,UNICEF
+P0063,19,Teen,heart disease,Australia,Oceania,HPV,2024-09-11,8.46,Govt Initiative
+P0064,58,Adult,diabetes,Japan,Asia,COVID-19,2024-06-10,1.49,CDC
+P0065,26,Adult,diabetes,Germany,Europe,COVID-19,2024-12-07,4.25,CDC
+P0066,17,Teen,heart disease,France,Europe,Tdap,2024-11-22,8.43,CDC
+P0067,88,Senior,asthma,Australia,Oceania,Pneumococcal,2024-10-18,0.83,WHO
+P0068,16,Teen,diabetes,Mexico,North America,HPV,2024-04-17,3.12,Govt Initiative
+P0069,67,Senior,asthma,France,Europe,Pneumococcal,2024-01-01,2.84,WHO
+P0070,3,Toddler,none,Nigeria,Africa,Hib,2024-10-10,0.96,Govt Initiative
+P0071,56,Adult,pregnant,Germany,Europe,Influenza,2024-02-24,2.52,WHO
+P0072,68,Senior,pregnant,Brazil,South America,Pneumococcal,2024-09-05,4.89,UNICEF
+P0073,72,Senior,pregnant,Australia,Oceania,Pneumococcal,2024-02-02,5.35,CDC
+P0074,64,Senior,heart disease,Brazil,South America,Shingles,2024-12-12,1.31,CDC
+P0075,84,Senior,asthma,Canada,North America,Pneumococcal,2024-06-09,3.44,Govt Initiative
+P0076,26,Adult,heart disease,France,Europe,COVID-19,2024-07-01,7.25,WHO
+P0077,0,Infant,pregnant,Mexico,North America,Polio,2024-09-19,2.16,Govt Initiative
+P0078,17,Teen,diabetes,Mexico,North America,HPV,2024-05-19,7.13,CDC
+P0079,57,Adult,diabetes,India,Asia,Influenza,2024-12-15,8.74,Govt Initiative
+P0080,8,Child,none,Nigeria,Africa,DTaP Booster,2024-09-16,0.43,WHO
+P0081,22,Adult,pregnant,Brazil,South America,COVID-19,2024-02-11,5.31,Govt Initiative
+P0082,34,Adult,diabetes,Australia,Oceania,Influenza,2024-02-12,8.55,WHO
+P0083,76,Senior,asthma,Japan,Asia,Pneumococcal,2024-04-30,4.45,CDC
+P0084,54,Adult,none,India,Asia,COVID-19,2024-01-11,3.75,UNICEF
+P0085,58,Adult,pregnant,Australia,Oceania,COVID-19,2024-01-07,5.48,WHO
+P0086,43,Adult,diabetes,Australia,Oceania,Influenza,2024-03-05,4.45,Govt Initiative
+P0087,20,Adult,none,Germany,Europe,COVID-19,2024-12-05,0.22,CDC
+P0088,78,Senior,asthma,Brazil,South America,Shingles,2024-12-14,8.58,Govt Initiative
+P0089,68,Senior,diabetes,USA,North America,Pneumococcal,2024-01-21,4.81,WHO
+P0090,87,Senior,diabetes,Canada,North America,Pneumococcal,2024-08-12,4.31,WHO
+P0091,67,Senior,pregnant,Mexico,North America,Pneumococcal,2024-09-08,8.29,WHO
+P0092,10,Child,diabetes,Mexico,North America,MMR Booster,2024-01-24,2.8,CDC
+P0093,34,Adult,heart disease,USA,North America,COVID-19,2024-02-17,6.27,WHO
+P0094,59,Adult,asthma,Brazil,South America,COVID-19,2024-03-22,8.45,CDC
+P0095,83,Senior,none,Canada,North America,Pneumococcal,2024-10-17,5.87,WHO
+P0096,44,Adult,none,Japan,Asia,Influenza,2024-05-16,0.3,Govt Initiative
+P0097,11,Child,none,Brazil,South America,MMR Booster,2024-12-13,7.83,CDC
+P0098,65,Senior,asthma,Australia,Oceania,Shingles,2024-05-31,4.79,WHO
+P0099,53,Adult,none,Mexico,North America,COVID-19,2024-03-30,9.12,WHO
+P0100,58,Adult,heart disease,USA,North America,Influenza,2024-04-17,2.87,WHO
+P0101,16,Teen,none,Nigeria,Africa,HPV,2024-12-09,2.61,CDC
+P0102,45,Adult,heart disease,Nigeria,Africa,Influenza,2024-06-29,6.34,UNICEF
+P0103,46,Adult,none,Nigeria,Africa,Influenza,2024-06-15,4.32,Govt Initiative
+P0104,72,Senior,asthma,France,Europe,Shingles,2024-09-09,4.6,UNICEF
+P0105,52,Adult,pregnant,Mexico,North America,Influenza,2024-02-06,8.99,UNICEF
+P0106,13,Teen,asthma,Mexico,North America,Tdap,2024-02-09,0.08,Govt Initiative
+P0107,59,Adult,diabetes,Australia,Oceania,COVID-19,2024-03-10,7.35,UNICEF
+P0108,8,Child,heart disease,Nigeria,Africa,MMR Booster,2024-07-12,9.57,CDC
+P0109,72,Senior,diabetes,Brazil,South America,Shingles,2024-05-26,0.09,Govt Initiative
+P0110,27,Adult,pregnant,USA,North America,COVID-19,2024-09-05,7.33,CDC
+P0111,18,Teen,none,USA,North America,Tdap,2024-06-05,7.04,UNICEF
+P0112,2,Toddler,diabetes,Nigeria,Africa,MMR,2024-12-14,4.08,CDC
+P0113,85,Senior,asthma,Australia,Oceania,Shingles,2024-03-08,5.7,Govt Initiative
+P0114,2,Toddler,pregnant,USA,North America,Hib,2024-01-07,8.15,UNICEF
+P0115,16,Teen,asthma,Brazil,South America,HPV,2024-02-11,9.84,CDC
+P0116,64,Senior,pregnant,France,Europe,Pneumococcal,2024-04-06,2.84,Govt Initiative
+P0117,51,Adult,none,Germany,Europe,COVID-19,2024-03-17,1.73,UNICEF
+P0118,13,Teen,diabetes,Mexico,North America,HPV,2024-05-02,5.69,Govt Initiative
+P0119,36,Adult,asthma,Germany,Europe,Influenza,2024-09-09,2.87,WHO
+P0120,25,Adult,asthma,India,Asia,COVID-19,2024-11-25,5.25,UNICEF
+P0121,39,Adult,heart disease,Germany,Europe,COVID-19,2024-10-30,9.54,Govt Initiative
+P0122,46,Adult,diabetes,Japan,Asia,Influenza,2024-06-20,2.1,Govt Initiative
+P0123,85,Senior,heart disease,Canada,North America,Pneumococcal,2024-08-27,6.25,WHO
+P0124,20,Adult,heart disease,India,Asia,COVID-19,2024-10-12,4.65,Govt Initiative
+P0125,86,Senior,asthma,France,Europe,Shingles,2024-03-15,7.5,UNICEF
+P0126,76,Senior,pregnant,Japan,Asia,Pneumococcal,2024-02-17,9.27,UNICEF
+P0127,74,Senior,diabetes,India,Asia,Shingles,2024-03-07,2.1,UNICEF
+P0128,20,Adult,asthma,Mexico,North America,Influenza,2024-11-30,3.36,UNICEF
+P0129,18,Teen,heart disease,France,Europe,HPV,2024-05-18,4.22,WHO
+P0130,43,Adult,diabetes,India,Asia,Influenza,2024-08-02,4.9,WHO
+P0131,1,Toddler,pregnant,USA,North America,Hib,2024-09-26,0.84,Govt Initiative
+P0132,1,Toddler,heart disease,Nigeria,Africa,Hib,2024-04-01,4.92,CDC
+P0133,26,Adult,heart disease,Mexico,North America,Influenza,2024-01-18,0.04,Govt Initiative
+P0134,33,Adult,asthma,Germany,Europe,COVID-19,2024-05-07,9.32,Govt Initiative
+P0135,35,Adult,pregnant,Australia,Oceania,COVID-19,2024-05-21,4.07,UNICEF
+P0136,38,Adult,heart disease,USA,North America,Influenza,2024-08-11,8.25,CDC
+P0137,71,Senior,heart disease,France,Europe,Pneumococcal,2024-09-21,7.92,WHO
+P0138,44,Adult,heart disease,USA,North America,Influenza,2024-08-23,9.88,Govt Initiative
+P0139,16,Teen,pregnant,Australia,Oceania,Tdap,2024-10-10,4.57,Govt Initiative
+P0140,49,Adult,pregnant,Canada,North America,Influenza,2024-09-02,7.35,UNICEF
+P0141,38,Adult,heart disease,Australia,Oceania,COVID-19,2024-05-26,1.94,CDC
+P0142,25,Adult,none,Mexico,North America,COVID-19,2024-03-31,6.52,UNICEF
+P0143,69,Senior,pregnant,USA,North America,Pneumococcal,2024-03-08,0.35,UNICEF
+P0144,36,Adult,none,Germany,Europe,COVID-19,2024-04-10,4.03,Govt Initiative
+P0145,37,Adult,diabetes,USA,North America,COVID-19,2024-08-11,7.09,WHO
+P0146,21,Adult,pregnant,Nigeria,Africa,COVID-19,2024-03-24,2.13,CDC
+P0147,85,Senior,heart disease,Germany,Europe,Shingles,2024-11-21,7.42,UNICEF
+P0148,20,Adult,none,Japan,Asia,COVID-19,2024-05-19,8.74,WHO
+P0149,35,Adult,pregnant,Brazil,South America,COVID-19,2024-05-29,3.92,Govt Initiative
+P0150,50,Adult,pregnant,Australia,Oceania,Influenza,2024-04-20,8.22,UNICEF
+P0151,39,Adult,asthma,Canada,North America,Influenza,2024-11-23,6.41,Govt Initiative
+P0152,29,Adult,heart disease,Nigeria,Africa,Influenza,2024-10-26,8.71,Govt Initiative
+P0153,29,Adult,heart disease,USA,North America,COVID-19,2024-08-30,5.83,Govt Initiative
+P0154,64,Senior,asthma,Mexico,North America,Shingles,2024-09-07,0.1,UNICEF
+P0155,88,Senior,none,USA,North America,Pneumococcal,2024-05-14,8.49,CDC
+P0156,54,Adult,heart disease,Australia,Oceania,COVID-19,2024-11-03,2.54,Govt Initiative
+P0157,5,Child,asthma,Canada,North America,MMR Booster,2024-03-19,8.42,UNICEF
+P0158,86,Senior,none,USA,North America,Shingles,2024-10-29,2.03,UNICEF
+P0159,65,Senior,diabetes,Mexico,North America,Pneumococcal,2024-09-09,4.05,CDC
+P0160,39,Adult,diabetes,France,Europe,COVID-19,2024-08-28,2.86,Govt Initiative
+P0161,78,Senior,heart disease,Australia,Oceania,Shingles,2024-07-31,9.16,Govt Initiative
+P0162,23,Adult,pregnant,Australia,Oceania,Influenza,2024-12-16,3.37,CDC
+P0163,74,Senior,asthma,Nigeria,Africa,Shingles,2024-09-23,9.01,UNICEF
+P0164,6,Child,diabetes,India,Asia,MMR Booster,2024-02-19,4.94,Govt Initiative
+P0165,26,Adult,asthma,Brazil,South America,Influenza,2024-07-16,8.55,CDC
+P0166,26,Adult,diabetes,USA,North America,COVID-19,2024-12-17,8.43,CDC
+P0167,84,Senior,heart disease,Japan,Asia,Pneumococcal,2024-11-26,0.04,WHO
+P0168,66,Senior,diabetes,Canada,North America,Shingles,2024-01-14,2.99,UNICEF
+P0169,25,Adult,pregnant,Japan,Asia,COVID-19,2024-12-28,0.84,UNICEF
+P0170,69,Senior,none,USA,North America,Shingles,2024-11-03,3.65,WHO
+P0171,20,Adult,pregnant,India,Asia,Influenza,2024-04-12,5.82,UNICEF
+P0172,50,Adult,heart disease,India,Asia,Influenza,2024-10-03,7.9,WHO
+P0173,40,Adult,pregnant,Japan,Asia,COVID-19,2024-01-27,1.97,UNICEF
+P0174,8,Child,pregnant,Brazil,South America,MMR Booster,2024-01-05,9.74,UNICEF
+P0175,26,Adult,pregnant,Mexico,North America,COVID-19,2024-09-24,4.69,CDC
+P0176,16,Teen,asthma,Mexico,North America,HPV,2024-11-28,1.49,Govt Initiative
+P0177,54,Adult,diabetes,Nigeria,Africa,Influenza,2024-01-17,5.62,Govt Initiative
+P0178,75,Senior,asthma,Japan,Asia,Shingles,2024-05-01,2.09,CDC
+P0179,39,Adult,asthma,France,Europe,COVID-19,2024-04-11,8.35,UNICEF
+P0180,13,Teen,none,USA,North America,HPV,2024-10-19,8.2,Govt Initiative
+P0181,83,Senior,none,Germany,Europe,Pneumococcal,2024-05-24,3.29,WHO
+P0182,70,Senior,diabetes,USA,North America,Shingles,2024-03-16,7.66,WHO
+P0183,51,Adult,pregnant,Japan,Asia,Influenza,2024-08-18,5.95,UNICEF
+P0184,65,Senior,asthma,Canada,North America,Shingles,2024-05-19,7.56,Govt Initiative
+P0185,88,Senior,heart disease,Nigeria,Africa,Pneumococcal,2024-07-02,9.08,Govt Initiative
+P0186,43,Adult,diabetes,Mexico,North America,COVID-19,2024-01-26,5.68,WHO
+P0187,13,Teen,none,Nigeria,Africa,Tdap,2024-05-25,0.12,UNICEF
+P0188,1,Toddler,asthma,Brazil,South America,DTaP,2024-11-19,8.5,WHO
+P0189,69,Senior,heart disease,Canada,North America,Pneumococcal,2024-10-04,7.7,CDC
+P0190,53,Adult,none,Mexico,North America,COVID-19,2024-11-13,6.06,Govt Initiative
+P0191,8,Child,none,Japan,Asia,MMR Booster,2024-10-10,5.47,WHO
+P0192,13,Teen,asthma,France,Europe,Tdap,2024-09-20,6.52,CDC
+P0193,12,Child,asthma,France,Europe,MMR Booster,2024-04-17,6.61,WHO
+P0194,46,Adult,none,Germany,Europe,COVID-19,2024-09-27,0.95,Govt Initiative
+P0195,19,Teen,heart disease,Nigeria,Africa,Tdap,2024-02-14,8.89,Govt Initiative
+P0196,46,Adult,pregnant,India,Asia,Influenza,2024-08-21,3.66,UNICEF
+P0197,35,Adult,pregnant,Canada,North America,COVID-19,2024-07-27,0.0,Govt Initiative
+P0198,44,Adult,diabetes,Canada,North America,Influenza,2024-11-08,0.13,CDC
+P0199,42,Adult,asthma,Japan,Asia,Influenza,2024-06-06,6.72,CDC
+P0200,76,Senior,diabetes,Australia,Oceania,Shingles,2024-08-05,7.38,Govt Initiative
+P0201,24,Adult,none,Brazil,South America,COVID-19,2024-08-09,8.24,WHO
+P0202,45,Adult,diabetes,Mexico,North America,Influenza,2024-04-26,9.72,WHO
+P0203,57,Adult,pregnant,Brazil,South America,Influenza,2024-11-02,5.42,WHO
+P0204,79,Senior,heart disease,USA,North America,Shingles,2024-09-29,1.4,Govt Initiative
+P0205,14,Teen,pregnant,USA,North America,Tdap,2024-06-18,2.3,UNICEF
+P0206,68,Senior,asthma,Germany,Europe,Shingles,2024-04-05,5.64,UNICEF
+P0207,13,Teen,pregnant,USA,North America,Tdap,2024-03-23,9.43,Govt Initiative
+P0208,15,Teen,asthma,Australia,Oceania,Tdap,2024-04-14,5.21,WHO
+P0209,16,Teen,heart disease,France,Europe,HPV,2024-02-26,2.39,UNICEF
+P0210,80,Senior,asthma,India,Asia,Shingles,2024-05-18,8.16,WHO
+P0211,57,Adult,heart disease,Australia,Oceania,COVID-19,2024-12-13,4.47,CDC
+P0212,54,Adult,heart disease,Mexico,North America,Influenza,2024-11-14,2.11,UNICEF
+P0213,55,Adult,pregnant,USA,North America,Influenza,2024-06-06,5.92,WHO
+P0214,11,Child,heart disease,India,Asia,DTaP Booster,2024-10-19,1.13,Govt Initiative
+P0215,80,Senior,diabetes,Nigeria,Africa,Pneumococcal,2024-01-04,3.45,WHO
+P0216,9,Child,pregnant,Nigeria,Africa,MMR Booster,2024-02-04,6.13,CDC
+P0217,62,Senior,heart disease,India,Asia,Pneumococcal,2024-09-02,3.28,Govt Initiative
+P0218,1,Toddler,pregnant,Brazil,South America,Hib,2024-11-13,8.88,CDC
+P0219,6,Child,asthma,Mexico,North America,MMR Booster,2024-11-27,4.55,CDC
+P0220,8,Child,pregnant,India,Asia,DTaP Booster,2024-04-13,7.64,CDC
+P0221,40,Adult,none,Australia,Oceania,COVID-19,2024-10-24,3.69,UNICEF
+P0222,86,Senior,asthma,Australia,Oceania,Shingles,2024-12-28,6.24,WHO
+P0223,0,Infant,none,Japan,Asia,BCG,2024-08-25,5.74,Govt Initiative
+P0224,72,Senior,asthma,Brazil,South America,Pneumococcal,2024-11-19,8.42,CDC
+P0225,29,Adult,none,India,Asia,COVID-19,2024-03-05,1.84,WHO
+P0226,87,Senior,asthma,USA,North America,Pneumococcal,2024-09-13,6.83,Govt Initiative
+P0227,27,Adult,none,India,Asia,COVID-19,2024-05-04,3.98,CDC
+P0228,40,Adult,pregnant,Australia,Oceania,Influenza,2024-07-05,1.12,UNICEF
+P0229,64,Senior,none,France,Europe,Shingles,2024-12-05,5.89,Govt Initiative
+P0230,81,Senior,heart disease,Germany,Europe,Pneumococcal,2024-03-27,2.91,CDC
+P0231,20,Adult,heart disease,USA,North America,COVID-19,2024-01-23,7.69,WHO
+P0232,75,Senior,diabetes,India,Asia,Pneumococcal,2024-06-18,4.59,UNICEF
+P0233,6,Child,heart disease,Japan,Asia,MMR Booster,2024-09-09,3.6,WHO
+P0234,19,Teen,asthma,Australia,Oceania,Tdap,2024-05-26,9.78,Govt Initiative
+P0235,42,Adult,diabetes,Canada,North America,Influenza,2024-03-19,7.46,Govt Initiative
+P0236,31,Adult,pregnant,Australia,Oceania,COVID-19,2024-11-14,6.4,Govt Initiative
+P0237,61,Senior,none,France,Europe,Shingles,2024-12-29,8.16,CDC
+P0238,80,Senior,heart disease,France,Europe,Shingles,2024-07-31,0.87,UNICEF
+P0239,62,Senior,asthma,Japan,Asia,Pneumococcal,2024-01-07,4.37,Govt Initiative
+P0240,44,Adult,pregnant,Brazil,South America,COVID-19,2024-06-14,2.11,CDC
+P0241,27,Adult,heart disease,USA,North America,COVID-19,2024-08-14,4.85,UNICEF
+P0242,47,Adult,pregnant,Australia,Oceania,COVID-19,2024-07-04,1.02,CDC
+P0243,36,Adult,diabetes,Nigeria,Africa,Influenza,2024-08-27,4.12,Govt Initiative
+P0244,60,Senior,none,India,Asia,Pneumococcal,2024-05-27,4.22,Govt Initiative
+P0245,67,Senior,diabetes,Germany,Europe,Shingles,2024-04-08,6.4,Govt Initiative
+P0246,71,Senior,asthma,USA,North America,Pneumococcal,2024-07-06,8.99,CDC
+P0247,50,Adult,pregnant,Brazil,South America,Influenza,2024-09-12,9.95,CDC
+P0248,73,Senior,diabetes,Mexico,North America,Pneumococcal,2024-08-04,6.84,WHO
+P0249,21,Adult,pregnant,Mexico,North America,Influenza,2024-12-16,2.39,Govt Initiative
+P0250,86,Senior,diabetes,France,Europe,Shingles,2024-06-27,0.08,WHO
+P0251,88,Senior,heart disease,Canada,North America,Pneumococcal,2024-10-06,4.08,UNICEF
+P0252,14,Teen,heart disease,Japan,Asia,Tdap,2024-07-28,6.97,UNICEF
+P0253,82,Senior,none,France,Europe,Pneumococcal,2024-03-31,3.36,UNICEF
+P0254,30,Adult,diabetes,Japan,Asia,COVID-19,2024-12-29,3.27,Govt Initiative
+P0255,0,Infant,pregnant,Nigeria,Africa,Polio,2024-04-11,4.48,WHO
+P0256,49,Adult,pregnant,France,Europe,COVID-19,2024-06-19,6.06,CDC
+P0257,41,Adult,diabetes,Nigeria,Africa,COVID-19,2024-01-25,6.63,UNICEF
+P0258,57,Adult,heart disease,Brazil,South America,COVID-19,2024-03-10,1.31,UNICEF
+P0259,55,Adult,pregnant,USA,North America,Influenza,2024-08-21,0.01,CDC
+P0260,80,Senior,diabetes,Japan,Asia,Shingles,2024-10-19,9.61,Govt Initiative
+P0261,40,Adult,asthma,India,Asia,COVID-19,2024-07-24,8.84,UNICEF
+P0262,58,Adult,asthma,Canada,North America,Influenza,2024-06-30,5.78,UNICEF
+P0263,86,Senior,heart disease,Germany,Europe,Shingles,2024-04-04,1.53,WHO
+P0264,50,Adult,asthma,Australia,Oceania,COVID-19,2024-01-18,6.26,CDC
+P0265,39,Adult,asthma,Australia,Oceania,Influenza,2024-02-23,1.65,Govt Initiative
+P0266,80,Senior,none,France,Europe,Pneumococcal,2024-10-18,2.26,WHO
+P0267,26,Adult,none,India,Asia,Influenza,2024-10-23,4.9,CDC
+P0268,43,Adult,heart disease,USA,North America,Influenza,2024-05-18,5.38,CDC
+P0269,81,Senior,heart disease,France,Europe,Shingles,2024-10-05,7.84,Govt Initiative
+P0270,80,Senior,heart disease,Germany,Europe,Shingles,2024-03-27,0.01,Govt Initiative
+P0271,7,Child,pregnant,USA,North America,MMR Booster,2024-07-13,2.01,CDC
+P0272,59,Adult,heart disease,India,Asia,Influenza,2024-09-21,5.47,CDC
+P0273,78,Senior,heart disease,Mexico,North America,Shingles,2024-10-16,7.34,UNICEF
+P0274,68,Senior,pregnant,Nigeria,Africa,Shingles,2024-11-19,2.66,WHO
+P0275,34,Adult,heart disease,Brazil,South America,Influenza,2024-07-05,7.78,UNICEF
+P0276,2,Toddler,pregnant,Brazil,South America,DTaP,2024-09-23,3.8,WHO
+P0277,57,Adult,none,USA,North America,COVID-19,2024-07-09,9.98,UNICEF
+P0278,61,Senior,pregnant,Germany,Europe,Shingles,2024-11-05,6.11,CDC
+P0279,70,Senior,asthma,Japan,Asia,Pneumococcal,2024-07-27,0.92,WHO
+P0280,81,Senior,asthma,Nigeria,Africa,Shingles,2024-10-04,6.4,UNICEF
+P0281,74,Senior,pregnant,India,Asia,Shingles,2024-06-28,2.73,CDC
+P0282,73,Senior,diabetes,Brazil,South America,Shingles,2024-07-13,6.98,Govt Initiative
+P0283,18,Teen,none,Brazil,South America,HPV,2024-10-03,4.29,Govt Initiative
+P0284,1,Toddler,heart disease,Japan,Asia,MMR,2024-10-28,1.12,CDC
+P0285,56,Adult,none,Australia,Oceania,Influenza,2024-08-12,3.0,UNICEF
+P0286,74,Senior,none,Germany,Europe,Shingles,2024-03-30,1.85,WHO
+P0287,50,Adult,diabetes,Mexico,North America,COVID-19,2024-04-12,3.11,WHO
+P0288,2,Toddler,diabetes,Canada,North America,Hib,2024-09-29,6.32,UNICEF
+P0289,25,Adult,diabetes,Mexico,North America,Influenza,2024-04-07,6.63,Govt Initiative
+P0290,84,Senior,none,USA,North America,Pneumococcal,2024-03-07,2.36,WHO
+P0291,22,Adult,diabetes,Australia,Oceania,Influenza,2024-02-17,8.23,CDC
+P0292,19,Teen,diabetes,Nigeria,Africa,HPV,2024-05-09,3.9,WHO
+P0293,44,Adult,none,USA,North America,Influenza,2024-02-06,8.71,UNICEF
+P0294,47,Adult,none,India,Asia,COVID-19,2024-10-02,0.08,CDC
+P0295,62,Senior,asthma,Canada,North America,Shingles,2024-07-23,1.05,WHO
+P0296,76,Senior,pregnant,Brazil,South America,Shingles,2024-04-27,7.05,Govt Initiative
+P0297,72,Senior,asthma,Germany,Europe,Shingles,2024-11-26,8.71,UNICEF
+P0298,59,Adult,none,Canada,North America,COVID-19,2024-09-04,5.76,Govt Initiative
+P0299,61,Senior,pregnant,Mexico,North America,Shingles,2024-12-12,5.84,UNICEF
+P0300,29,Adult,none,Germany,Europe,COVID-19,2024-07-15,3.92,CDC
+P0301,33,Adult,diabetes,Germany,Europe,COVID-19,2024-10-12,8.13,Govt Initiative
+P0302,51,Adult,heart disease,Canada,North America,Influenza,2024-05-23,4.46,UNICEF
+P0303,63,Senior,heart disease,India,Asia,Pneumococcal,2024-01-28,8.65,CDC
+P0304,29,Adult,heart disease,Nigeria,Africa,COVID-19,2024-08-28,2.12,CDC
+P0305,33,Adult,heart disease,Canada,North America,COVID-19,2024-06-01,7.44,WHO
+P0306,28,Adult,heart disease,France,Europe,Influenza,2024-12-04,2.14,Govt Initiative
+P0307,22,Adult,heart disease,France,Europe,Influenza,2024-05-10,6.43,WHO
+P0308,78,Senior,diabetes,Australia,Oceania,Shingles,2024-12-11,7.8,UNICEF
+P0309,21,Adult,asthma,Japan,Asia,Influenza,2024-03-21,1.45,UNICEF
+P0310,48,Adult,diabetes,Canada,North America,Influenza,2024-12-21,2.34,Govt Initiative
+P0311,57,Adult,asthma,Japan,Asia,COVID-19,2024-06-25,5.25,WHO
+P0312,89,Senior,diabetes,India,Asia,Pneumococcal,2024-02-16,7.93,CDC
+P0313,62,Senior,asthma,Australia,Oceania,Shingles,2024-12-20,8.47,UNICEF
+P0314,54,Adult,heart disease,Mexico,North America,COVID-19,2024-04-12,8.91,WHO
+P0315,16,Teen,pregnant,Brazil,South America,HPV,2024-07-09,5.55,WHO
+P0316,86,Senior,diabetes,Mexico,North America,Shingles,2024-10-26,5.25,WHO
+P0317,0,Infant,asthma,USA,North America,BCG,2024-12-16,2.86,UNICEF
+P0318,29,Adult,diabetes,France,Europe,Influenza,2024-06-12,2.42,UNICEF
+P0319,29,Adult,diabetes,France,Europe,Influenza,2024-09-19,1.87,WHO
+P0320,28,Adult,heart disease,Canada,North America,Influenza,2024-08-26,4.42,Govt Initiative
+P0321,15,Teen,asthma,USA,North America,HPV,2024-08-24,5.0,WHO
+P0322,24,Adult,pregnant,Germany,Europe,Influenza,2024-07-09,4.08,Govt Initiative
+P0323,77,Senior,heart disease,USA,North America,Shingles,2024-05-13,8.26,CDC
+P0324,43,Adult,pregnant,Nigeria,Africa,COVID-19,2024-10-24,2.6,UNICEF
+P0325,34,Adult,pregnant,Australia,Oceania,COVID-19,2024-07-08,4.93,WHO
+P0326,88,Senior,asthma,Mexico,North America,Shingles,2024-09-26,6.69,WHO
+P0327,30,Adult,asthma,Australia,Oceania,Influenza,2024-05-25,1.5,WHO
+P0328,46,Adult,asthma,Canada,North America,COVID-19,2024-02-04,5.27,Govt Initiative
+P0329,67,Senior,pregnant,Nigeria,Africa,Pneumococcal,2024-07-14,5.48,WHO
+P0330,51,Adult,asthma,France,Europe,COVID-19,2024-05-05,7.15,Govt Initiative
+P0331,28,Adult,pregnant,India,Asia,Influenza,2024-12-18,5.88,UNICEF
+P0332,35,Adult,pregnant,Nigeria,Africa,Influenza,2024-12-28,7.76,UNICEF
+P0333,61,Senior,asthma,Nigeria,Africa,Pneumococcal,2024-06-08,4.68,WHO
+P0334,83,Senior,none,France,Europe,Pneumococcal,2024-03-12,4.63,Govt Initiative
+P0335,63,Senior,none,Nigeria,Africa,Shingles,2024-07-07,8.97,CDC
+P0336,42,Adult,none,USA,North America,COVID-19,2024-12-13,9.24,WHO
+P0337,63,Senior,none,Japan,Asia,Shingles,2024-06-30,4.94,WHO
+P0338,21,Adult,none,Germany,Europe,Influenza,2024-01-31,6.01,CDC
+P0339,78,Senior,diabetes,Canada,North America,Shingles,2024-04-26,3.03,WHO
+P0340,71,Senior,heart disease,Canada,North America,Pneumococcal,2024-01-15,6.61,CDC
+P0341,81,Senior,heart disease,Nigeria,Africa,Shingles,2024-05-24,0.91,CDC
+P0342,47,Adult,diabetes,France,Europe,Influenza,2024-05-14,2.05,CDC
+P0343,12,Child,pregnant,Nigeria,Africa,DTaP Booster,2024-03-11,0.19,Govt Initiative
+P0344,86,Senior,none,Germany,Europe,Pneumococcal,2024-09-25,5.54,CDC
+P0345,1,Toddler,diabetes,France,Europe,Hib,2024-11-07,1.48,Govt Initiative
+P0346,5,Child,diabetes,Brazil,South America,DTaP Booster,2024-01-19,5.59,Govt Initiative
+P0347,29,Adult,diabetes,Canada,North America,Influenza,2024-03-03,0.84,UNICEF
+P0348,85,Senior,heart disease,India,Asia,Shingles,2024-02-23,7.99,Govt Initiative
+P0349,2,Toddler,pregnant,USA,North America,DTaP,2024-06-22,4.18,UNICEF
+P0350,61,Senior,asthma,Nigeria,Africa,Pneumococcal,2024-04-28,0.45,CDC
+P0351,36,Adult,pregnant,France,Europe,Influenza,2024-06-10,2.71,WHO
+P0352,50,Adult,none,Canada,North America,Influenza,2024-06-19,4.21,CDC
+P0353,79,Senior,heart disease,Canada,North America,Shingles,2024-07-28,3.07,WHO
+P0354,89,Senior,heart disease,Nigeria,Africa,Shingles,2024-07-22,5.82,WHO
+P0355,40,Adult,diabetes,Australia,Oceania,COVID-19,2024-11-08,6.94,WHO
+P0356,32,Adult,asthma,Japan,Asia,COVID-19,2024-08-02,6.19,CDC
+P0357,70,Senior,diabetes,Mexico,North America,Shingles,2024-02-27,7.99,UNICEF
+P0358,81,Senior,none,Japan,Asia,Pneumococcal,2024-01-08,5.36,UNICEF
+P0359,86,Senior,none,Canada,North America,Pneumococcal,2024-12-04,2.92,Govt Initiative
+P0360,79,Senior,heart disease,Canada,North America,Pneumococcal,2024-07-10,6.07,UNICEF
+P0361,82,Senior,pregnant,Brazil,South America,Pneumococcal,2024-05-02,3.73,WHO
+P0362,8,Child,heart disease,Japan,Asia,DTaP Booster,2024-06-09,2.99,WHO
+P0363,66,Senior,asthma,Canada,North America,Shingles,2024-05-05,2.15,CDC
+P0364,28,Adult,none,Germany,Europe,Influenza,2024-12-11,4.19,UNICEF
+P0365,26,Adult,none,Germany,Europe,Influenza,2024-10-26,8.87,UNICEF
+P0366,74,Senior,asthma,Brazil,South America,Pneumococcal,2024-10-01,0.33,CDC
+P0367,22,Adult,diabetes,Germany,Europe,COVID-19,2024-01-21,8.55,Govt Initiative
+P0368,31,Adult,pregnant,India,Asia,COVID-19,2024-02-23,4.89,WHO
+P0369,56,Adult,none,Brazil,South America,Influenza,2024-09-06,0.84,WHO
+P0370,46,Adult,pregnant,Australia,Oceania,COVID-19,2024-09-05,9.39,WHO
+P0371,79,Senior,none,Nigeria,Africa,Shingles,2024-05-01,0.67,UNICEF
+P0372,65,Senior,pregnant,Mexico,North America,Pneumococcal,2024-09-08,1.32,CDC
+P0373,29,Adult,asthma,USA,North America,Influenza,2024-11-17,8.32,Govt Initiative
+P0374,54,Adult,pregnant,India,Asia,COVID-19,2024-05-12,7.58,CDC
+P0375,75,Senior,none,France,Europe,Pneumococcal,2024-05-30,7.54,UNICEF
+P0376,51,Adult,diabetes,USA,North America,COVID-19,2024-11-23,1.52,CDC
+P0377,23,Adult,pregnant,France,Europe,COVID-19,2024-12-13,8.53,WHO
+P0378,56,Adult,diabetes,Germany,Europe,COVID-19,2024-02-13,0.61,UNICEF
+P0379,59,Adult,asthma,India,Asia,COVID-19,2024-09-03,7.58,UNICEF
+P0380,35,Adult,diabetes,Nigeria,Africa,COVID-19,2024-06-15,5.68,Govt Initiative
+P0381,55,Adult,diabetes,Germany,Europe,COVID-19,2024-03-30,1.0,Govt Initiative
+P0382,50,Adult,diabetes,USA,North America,COVID-19,2024-01-26,2.91,Govt Initiative
+P0383,5,Child,asthma,Brazil,South America,MMR Booster,2024-04-16,3.57,WHO
+P0384,68,Senior,none,Canada,North America,Pneumococcal,2024-05-05,5.11,WHO
+P0385,41,Adult,pregnant,Japan,Asia,Influenza,2024-07-02,3.15,Govt Initiative
+P0386,27,Adult,diabetes,India,Asia,Influenza,2024-11-04,9.62,UNICEF
+P0387,71,Senior,diabetes,Mexico,North America,Pneumococcal,2024-12-13,6.97,WHO
+P0388,49,Adult,pregnant,India,Asia,COVID-19,2024-09-08,2.72,WHO
+P0389,71,Senior,diabetes,Brazil,South America,Pneumococcal,2024-04-26,0.32,UNICEF
+P0390,12,Child,none,USA,North America,MMR Booster,2024-12-29,0.7,UNICEF
+P0391,53,Adult,asthma,Brazil,South America,Influenza,2024-07-14,7.67,Govt Initiative
+P0392,15,Teen,none,Brazil,South America,Tdap,2024-06-04,7.23,UNICEF
+P0393,23,Adult,pregnant,Germany,Europe,Influenza,2024-09-28,6.31,CDC
+P0394,63,Senior,pregnant,Brazil,South America,Shingles,2024-11-24,3.06,CDC
+P0395,64,Senior,diabetes,Germany,Europe,Pneumococcal,2024-01-07,7.89,UNICEF
+P0396,36,Adult,diabetes,Nigeria,Africa,Influenza,2024-11-20,0.96,Govt Initiative
+P0397,2,Toddler,none,Australia,Oceania,MMR,2024-10-09,5.05,Govt Initiative
+P0398,6,Child,diabetes,Mexico,North America,DTaP Booster,2024-01-27,2.27,UNICEF
+P0399,80,Senior,pregnant,Australia,Oceania,Shingles,2024-01-08,5.87,CDC
+P0400,51,Adult,diabetes,Germany,Europe,COVID-19,2024-01-09,8.55,CDC
+P0401,82,Senior,diabetes,Germany,Europe,Pneumococcal,2024-09-24,5.08,Govt Initiative
+P0402,28,Adult,heart disease,Canada,North America,Influenza,2024-02-26,7.58,WHO
+P0403,24,Adult,asthma,Germany,Europe,Influenza,2024-06-30,5.75,UNICEF
+P0404,59,Adult,pregnant,USA,North America,Influenza,2024-07-15,8.63,CDC
+P0405,38,Adult,diabetes,Australia,Oceania,Influenza,2024-09-17,6.15,UNICEF
+P0406,70,Senior,pregnant,India,Asia,Shingles,2024-02-07,9.95,CDC
+P0407,10,Child,none,Mexico,North America,MMR Booster,2024-06-09,5.1,CDC
+P0408,58,Adult,none,Canada,North America,Influenza,2024-04-27,4.05,WHO
+P0409,53,Adult,heart disease,India,Asia,COVID-19,2024-04-01,7.3,CDC
+P0410,46,Adult,diabetes,India,Asia,Influenza,2024-02-17,1.87,UNICEF
+P0411,39,Adult,heart disease,Canada,North America,COVID-19,2024-01-17,3.51,UNICEF
+P0412,81,Senior,asthma,USA,North America,Pneumococcal,2024-09-11,3.18,WHO
+P0413,40,Adult,diabetes,Nigeria,Africa,COVID-19,2024-06-16,4.36,Govt Initiative
+P0414,70,Senior,none,Brazil,South America,Shingles,2024-01-29,7.78,WHO
+P0415,50,Adult,diabetes,Canada,North America,Influenza,2024-10-26,8.1,Govt Initiative
+P0416,70,Senior,diabetes,Mexico,North America,Shingles,2024-12-31,2.23,CDC
+P0417,85,Senior,pregnant,Mexico,North America,Pneumococcal,2024-03-29,6.0,Govt Initiative
+P0418,14,Teen,diabetes,Australia,Oceania,Tdap,2024-07-09,8.37,WHO
+P0419,9,Child,none,Japan,Asia,DTaP Booster,2024-03-25,0.89,Govt Initiative
+P0420,23,Adult,none,Germany,Europe,COVID-19,2024-04-02,0.55,CDC
+P0421,31,Adult,heart disease,Canada,North America,COVID-19,2024-12-02,2.99,WHO
+P0422,51,Adult,pregnant,Germany,Europe,COVID-19,2024-10-04,0.72,CDC
+P0423,24,Adult,heart disease,USA,North America,COVID-19,2024-11-16,9.56,UNICEF
+P0424,45,Adult,heart disease,Japan,Asia,Influenza,2024-07-17,1.85,CDC
+P0425,67,Senior,none,Brazil,South America,Shingles,2024-02-02,1.03,WHO
+P0426,26,Adult,asthma,India,Asia,Influenza,2024-12-24,7.19,CDC
+P0427,17,Teen,pregnant,Germany,Europe,Tdap,2024-09-20,0.35,WHO
+P0428,24,Adult,asthma,Canada,North America,COVID-19,2024-10-08,4.06,CDC
+P0429,65,Senior,pregnant,Mexico,North America,Shingles,2024-09-19,0.12,UNICEF
+P0430,18,Teen,none,India,Asia,HPV,2024-01-27,2.82,UNICEF
+P0431,16,Teen,asthma,USA,North America,Tdap,2024-11-24,9.13,CDC
+P0432,10,Child,diabetes,Canada,North America,MMR Booster,2024-12-02,5.9,CDC
+P0433,74,Senior,asthma,Nigeria,Africa,Pneumococcal,2024-01-20,1.49,CDC
+P0434,48,Adult,asthma,Mexico,North America,Influenza,2024-09-23,6.51,UNICEF
+P0435,49,Adult,asthma,India,Asia,Influenza,2024-02-19,3.83,WHO
+P0436,6,Child,asthma,India,Asia,DTaP Booster,2024-08-07,4.62,WHO
+P0437,48,Adult,none,Germany,Europe,COVID-19,2024-09-16,9.52,UNICEF
+P0438,8,Child,diabetes,Mexico,North America,DTaP Booster,2024-05-24,0.08,Govt Initiative
+P0439,61,Senior,pregnant,Germany,Europe,Pneumococcal,2024-08-31,7.55,Govt Initiative
+P0440,30,Adult,heart disease,Canada,North America,COVID-19,2024-10-27,1.87,UNICEF
+P0441,7,Child,pregnant,Mexico,North America,MMR Booster,2024-08-10,8.07,WHO
+P0442,2,Toddler,pregnant,Canada,North America,Hib,2024-11-12,6.97,CDC
+P0443,45,Adult,pregnant,Nigeria,Africa,COVID-19,2024-03-26,6.88,CDC
+P0444,8,Child,pregnant,Nigeria,Africa,MMR Booster,2024-01-27,1.23,CDC
+P0445,74,Senior,pregnant,USA,North America,Pneumococcal,2024-03-10,6.16,Govt Initiative
+P0446,32,Adult,pregnant,Brazil,South America,COVID-19,2024-03-06,8.27,UNICEF
+P0447,65,Senior,heart disease,Canada,North America,Shingles,2024-10-29,7.13,UNICEF
+P0448,82,Senior,asthma,Brazil,South America,Pneumococcal,2024-01-28,2.62,WHO
+P0449,31,Adult,pregnant,Brazil,South America,Influenza,2024-05-18,9.65,WHO
+P0450,57,Adult,none,Mexico,North America,Influenza,2024-04-08,1.75,WHO
+P0451,36,Adult,pregnant,Mexico,North America,COVID-19,2024-12-12,0.06,CDC
+P0452,50,Adult,heart disease,Nigeria,Africa,COVID-19,2024-10-09,4.47,Govt Initiative
+P0453,2,Toddler,none,Mexico,North America,MMR,2024-05-09,2.06,UNICEF
+P0454,88,Senior,diabetes,Nigeria,Africa,Shingles,2024-12-21,7.9,UNICEF
+P0455,30,Adult,none,India,Asia,COVID-19,2024-07-27,6.7,UNICEF
+P0456,67,Senior,none,Brazil,South America,Shingles,2024-12-01,6.62,WHO
+P0457,45,Adult,asthma,India,Asia,COVID-19,2024-04-22,5.43,Govt Initiative
+P0458,8,Child,asthma,Mexico,North America,MMR Booster,2024-12-15,8.7,WHO
+P0459,28,Adult,none,Brazil,South America,Influenza,2024-12-11,4.42,CDC
+P0460,85,Senior,asthma,Australia,Oceania,Shingles,2024-02-23,2.21,CDC
+P0461,25,Adult,diabetes,Japan,Asia,Influenza,2024-07-10,1.48,WHO
+P0462,32,Adult,pregnant,Australia,Oceania,COVID-19,2024-08-27,0.07,UNICEF
+P0463,32,Adult,diabetes,India,Asia,Influenza,2024-10-31,0.01,UNICEF
+P0464,87,Senior,asthma,Brazil,South America,Shingles,2024-12-27,9.48,UNICEF
+P0465,90,Senior,none,Australia,Oceania,Pneumococcal,2024-10-30,5.57,Govt Initiative
+P0466,62,Senior,asthma,Australia,Oceania,Pneumococcal,2024-10-14,0.31,WHO
+P0467,43,Adult,diabetes,Australia,Oceania,COVID-19,2024-12-19,4.33,CDC
+P0468,48,Adult,pregnant,Australia,Oceania,Influenza,2024-02-22,6.55,Govt Initiative
+P0469,37,Adult,none,Australia,Oceania,COVID-19,2024-01-02,0.31,UNICEF
+P0470,43,Adult,asthma,Brazil,South America,Influenza,2024-01-06,3.48,UNICEF
+P0471,36,Adult,asthma,Germany,Europe,Influenza,2024-02-10,6.9,CDC
+P0472,31,Adult,diabetes,Brazil,South America,COVID-19,2024-10-05,8.04,Govt Initiative
+P0473,88,Senior,pregnant,USA,North America,Shingles,2024-10-24,9.14,UNICEF
+P0474,41,Adult,diabetes,Brazil,South America,COVID-19,2024-08-20,5.14,WHO
+P0475,6,Child,pregnant,France,Europe,DTaP Booster,2024-07-30,1.72,Govt Initiative
+P0476,42,Adult,none,India,Asia,COVID-19,2024-05-26,6.6,UNICEF
+P0477,16,Teen,asthma,Brazil,South America,HPV,2024-05-21,7.94,CDC
+P0478,3,Toddler,heart disease,Mexico,North America,MMR,2024-02-01,8.83,UNICEF
+P0479,12,Child,pregnant,USA,North America,DTaP Booster,2024-12-26,8.58,WHO
+P0480,43,Adult,none,Japan,Asia,Influenza,2024-03-13,9.95,WHO
+P0481,75,Senior,pregnant,Japan,Asia,Shingles,2024-10-10,8.09,CDC
+P0482,26,Adult,none,Canada,North America,COVID-19,2024-02-27,6.35,WHO
+P0483,29,Adult,none,Mexico,North America,Influenza,2024-10-08,7.97,Govt Initiative
+P0484,71,Senior,heart disease,USA,North America,Pneumococcal,2024-04-02,9.32,Govt Initiative
+P0485,85,Senior,asthma,Australia,Oceania,Pneumococcal,2024-09-13,3.51,Govt Initiative
+P0486,18,Teen,pregnant,USA,North America,Tdap,2024-07-20,1.03,CDC
+P0487,55,Adult,pregnant,Australia,Oceania,COVID-19,2024-03-04,9.34,Govt Initiative
+P0488,83,Senior,pregnant,Canada,North America,Shingles,2024-04-03,8.77,UNICEF
+P0489,60,Senior,asthma,Germany,Europe,Pneumococcal,2024-08-28,3.19,Govt Initiative
+P0490,14,Teen,heart disease,France,Europe,HPV,2024-11-26,9.83,Govt Initiative
+P0491,31,Adult,asthma,USA,North America,Influenza,2024-05-13,6.14,Govt Initiative
+P0492,59,Adult,asthma,Germany,Europe,COVID-19,2024-02-29,6.45,UNICEF
+P0493,34,Adult,diabetes,Australia,Oceania,Influenza,2024-05-21,5.84,WHO
+P0494,18,Teen,none,France,Europe,HPV,2024-08-11,6.51,UNICEF
+P0495,88,Senior,asthma,Brazil,South America,Shingles,2024-12-31,4.07,CDC
+P0496,67,Senior,diabetes,Mexico,North America,Shingles,2024-06-18,9.35,WHO
+P0497,71,Senior,pregnant,France,Europe,Pneumococcal,2024-07-08,5.9,Govt Initiative
+P0498,60,Senior,asthma,India,Asia,Pneumococcal,2024-11-29,4.7,Govt Initiative
+P0499,49,Adult,heart disease,India,Asia,Influenza,2024-02-23,1.31,CDC
+P0500,82,Senior,heart disease,Canada,North America,Shingles,2024-07-14,8.69,Govt Initiative
+P0501,22,Adult,diabetes,Mexico,North America,COVID-19,2024-08-19,1.08,WHO
+P0502,40,Adult,pregnant,Mexico,North America,COVID-19,2024-05-11,5.05,CDC
+P0503,87,Senior,diabetes,Nigeria,Africa,Shingles,2024-11-10,2.24,Govt Initiative
+P0504,67,Senior,asthma,Japan,Asia,Pneumococcal,2024-11-26,1.79,WHO
+P0505,0,Infant,pregnant,Australia,Oceania,Hepatitis B,2024-12-10,2.38,CDC
+P0506,43,Adult,heart disease,USA,North America,COVID-19,2024-12-14,6.32,Govt Initiative
+P0507,48,Adult,asthma,India,Asia,Influenza,2024-06-15,8.77,WHO
+P0508,2,Toddler,heart disease,Mexico,North America,MMR,2024-11-20,1.81,UNICEF
+P0509,87,Senior,asthma,USA,North America,Pneumococcal,2024-07-15,8.2,WHO
+P0510,34,Adult,asthma,France,Europe,COVID-19,2024-10-15,0.9,WHO
+P0511,85,Senior,asthma,USA,North America,Shingles,2024-02-10,7.85,CDC
+P0512,72,Senior,none,Canada,North America,Pneumococcal,2024-07-07,0.79,CDC
+P0513,71,Senior,diabetes,Canada,North America,Pneumococcal,2024-02-19,8.32,UNICEF
+P0514,86,Senior,diabetes,Japan,Asia,Shingles,2024-11-27,6.94,WHO
+P0515,48,Adult,pregnant,India,Asia,COVID-19,2024-06-12,0.13,Govt Initiative
+P0516,2,Toddler,none,France,Europe,MMR,2024-07-03,6.15,CDC
+P0517,80,Senior,diabetes,France,Europe,Pneumococcal,2024-07-10,9.06,CDC
+P0518,23,Adult,diabetes,Germany,Europe,COVID-19,2024-04-24,4.55,WHO
+P0519,83,Senior,heart disease,Japan,Asia,Shingles,2024-05-24,7.52,UNICEF
+P0520,68,Senior,asthma,Australia,Oceania,Shingles,2024-06-05,1.01,Govt Initiative
+P0521,3,Toddler,heart disease,Brazil,South America,DTaP,2024-02-25,1.58,CDC
+P0522,73,Senior,heart disease,Canada,North America,Pneumococcal,2024-01-09,1.99,UNICEF
+P0523,45,Adult,heart disease,Japan,Asia,COVID-19,2024-11-16,5.06,CDC
+P0524,88,Senior,pregnant,India,Asia,Pneumococcal,2024-02-29,7.37,WHO
+P0525,63,Senior,heart disease,France,Europe,Pneumococcal,2024-09-29,6.68,UNICEF
+P0526,64,Senior,heart disease,Japan,Asia,Shingles,2024-11-11,9.14,Govt Initiative
+P0527,6,Child,pregnant,Australia,Oceania,MMR Booster,2024-04-17,9.85,Govt Initiative
+P0528,11,Child,diabetes,Germany,Europe,DTaP Booster,2024-09-25,3.04,UNICEF
+P0529,90,Senior,asthma,USA,North America,Pneumococcal,2024-03-31,8.46,CDC
+P0530,18,Teen,none,France,Europe,Tdap,2024-02-01,5.26,WHO
+P0531,49,Adult,asthma,Brazil,South America,Influenza,2024-03-21,5.71,UNICEF
+P0532,90,Senior,pregnant,Japan,Asia,Pneumococcal,2024-01-12,8.79,UNICEF
+P0533,34,Adult,diabetes,Germany,Europe,Influenza,2024-03-02,2.37,UNICEF
+P0534,86,Senior,asthma,USA,North America,Pneumococcal,2024-12-12,4.23,CDC
+P0535,10,Child,none,Japan,Asia,DTaP Booster,2024-02-19,0.34,CDC
+P0536,17,Teen,heart disease,Brazil,South America,HPV,2024-06-01,1.5,UNICEF
+P0537,48,Adult,asthma,India,Asia,Influenza,2024-05-04,7.03,Govt Initiative
+P0538,39,Adult,none,Japan,Asia,COVID-19,2024-02-20,6.79,WHO
+P0539,7,Child,asthma,France,Europe,MMR Booster,2024-09-08,9.42,CDC
+P0540,6,Child,asthma,India,Asia,DTaP Booster,2024-09-25,0.41,WHO
+P0541,5,Child,diabetes,Nigeria,Africa,MMR Booster,2024-01-26,7.24,WHO
+P0542,43,Adult,diabetes,Germany,Europe,Influenza,2024-07-15,7.94,CDC
+P0543,12,Child,pregnant,Mexico,North America,MMR Booster,2024-07-25,2.44,CDC
+P0544,69,Senior,pregnant,USA,North America,Pneumococcal,2024-04-17,10.0,Govt Initiative
+P0545,10,Child,asthma,India,Asia,DTaP Booster,2024-02-16,5.76,WHO
+P0546,88,Senior,none,Brazil,South America,Shingles,2024-02-07,5.48,Govt Initiative
+P0547,76,Senior,pregnant,Australia,Oceania,Shingles,2024-02-16,7.37,CDC
+P0548,68,Senior,asthma,USA,North America,Shingles,2024-07-21,4.94,Govt Initiative
+P0549,35,Adult,heart disease,Brazil,South America,COVID-19,2024-05-13,9.11,UNICEF
+P0550,43,Adult,diabetes,Japan,Asia,Influenza,2024-01-02,5.16,Govt Initiative
+P0551,63,Senior,none,France,Europe,Shingles,2024-09-12,7.13,UNICEF
+P0552,79,Senior,none,Brazil,South America,Shingles,2024-12-12,9.38,UNICEF
+P0553,1,Toddler,asthma,Canada,North America,DTaP,2024-10-20,0.06,WHO
+P0554,17,Teen,heart disease,India,Asia,Tdap,2024-12-18,3.61,Govt Initiative
+P0555,43,Adult,none,India,Asia,Influenza,2024-01-25,4.77,UNICEF
+P0556,11,Child,none,Mexico,North America,DTaP Booster,2024-04-21,8.32,UNICEF
+P0557,55,Adult,heart disease,Australia,Oceania,COVID-19,2024-09-20,8.16,WHO
+P0558,40,Adult,none,Australia,Oceania,COVID-19,2024-04-12,4.01,WHO
+P0559,6,Child,diabetes,Japan,Asia,MMR Booster,2024-03-20,4.32,UNICEF
+P0560,14,Teen,heart disease,Mexico,North America,Tdap,2024-05-30,3.85,WHO
+P0561,80,Senior,pregnant,Australia,Oceania,Shingles,2024-07-17,4.2,CDC
+P0562,30,Adult,none,Japan,Asia,Influenza,2024-02-27,0.14,CDC
+P0563,71,Senior,heart disease,Japan,Asia,Shingles,2024-08-03,7.72,UNICEF
+P0564,4,Toddler,heart disease,Mexico,North America,MMR,2024-03-18,1.93,Govt Initiative
+P0565,74,Senior,heart disease,Australia,Oceania,Pneumococcal,2024-10-24,3.8,CDC
+P0566,48,Adult,heart disease,Germany,Europe,Influenza,2024-05-13,9.91,UNICEF
+P0567,20,Adult,none,USA,North America,COVID-19,2024-10-16,1.24,WHO
+P0568,44,Adult,heart disease,Nigeria,Africa,Influenza,2024-12-10,3.73,WHO
+P0569,56,Adult,pregnant,France,Europe,COVID-19,2024-03-20,3.66,Govt Initiative
+P0570,43,Adult,none,Brazil,South America,Influenza,2024-09-12,4.24,WHO
+P0571,85,Senior,heart disease,Japan,Asia,Shingles,2024-11-18,7.65,CDC
+P0572,1,Toddler,heart disease,Germany,Europe,Hib,2024-06-05,5.06,UNICEF
+P0573,23,Adult,asthma,Nigeria,Africa,Influenza,2024-02-03,1.04,CDC
+P0574,31,Adult,heart disease,Nigeria,Africa,COVID-19,2024-12-12,5.49,CDC
+P0575,7,Child,asthma,Japan,Asia,MMR Booster,2024-05-23,3.15,UNICEF
+P0576,19,Teen,pregnant,Australia,Oceania,Tdap,2024-07-18,4.58,Govt Initiative
+P0577,76,Senior,pregnant,France,Europe,Pneumococcal,2024-04-04,3.16,CDC
+P0578,14,Teen,asthma,France,Europe,Tdap,2024-11-12,4.61,CDC
+P0579,52,Adult,pregnant,Brazil,South America,COVID-19,2024-09-25,4.04,Govt Initiative
+P0580,57,Adult,diabetes,Germany,Europe,Influenza,2024-10-05,4.66,Govt Initiative
+P0581,26,Adult,asthma,India,Asia,Influenza,2024-10-09,4.62,CDC
+P0582,3,Toddler,none,USA,North America,MMR,2024-07-15,6.2,UNICEF
+P0583,69,Senior,none,France,Europe,Pneumococcal,2024-11-14,9.51,Govt Initiative
+P0584,50,Adult,pregnant,Japan,Asia,COVID-19,2024-03-29,5.03,Govt Initiative
+P0585,31,Adult,diabetes,Brazil,South America,Influenza,2024-12-31,7.2,UNICEF
+P0586,85,Senior,none,Australia,Oceania,Shingles,2024-10-26,9.26,Govt Initiative
+P0587,81,Senior,asthma,Nigeria,Africa,Shingles,2024-05-22,7.05,Govt Initiative
+P0588,86,Senior,none,USA,North America,Shingles,2024-02-16,8.36,CDC
+P0589,11,Child,pregnant,Canada,North America,DTaP Booster,2024-03-10,4.44,Govt Initiative
+P0590,52,Adult,pregnant,Brazil,South America,Influenza,2024-08-20,3.88,UNICEF
+P0591,73,Senior,diabetes,Germany,Europe,Pneumococcal,2024-02-21,7.19,UNICEF
+P0592,72,Senior,heart disease,Nigeria,Africa,Shingles,2024-05-22,9.47,UNICEF
+P0593,8,Child,asthma,Mexico,North America,MMR Booster,2024-02-27,6.93,WHO
+P0594,82,Senior,none,Japan,Asia,Shingles,2024-05-11,0.61,Govt Initiative
+P0595,17,Teen,asthma,Brazil,South America,HPV,2024-01-06,4.3,CDC
+P0596,66,Senior,pregnant,India,Asia,Pneumococcal,2024-08-18,4.41,WHO
+P0597,36,Adult,asthma,Canada,North America,COVID-19,2024-11-25,8.98,Govt Initiative
+P0598,48,Adult,asthma,Canada,North America,COVID-19,2024-03-28,7.62,WHO
+P0599,69,Senior,none,Brazil,South America,Pneumococcal,2024-10-28,2.76,UNICEF
+P0600,49,Adult,diabetes,USA,North America,COVID-19,2024-03-25,1.37,Govt Initiative
+P0601,57,Adult,diabetes,Brazil,South America,Influenza,2024-10-21,0.62,UNICEF
+P0602,39,Adult,diabetes,USA,North America,Influenza,2024-03-16,5.46,UNICEF
+P0603,77,Senior,diabetes,USA,North America,Shingles,2024-03-27,7.97,UNICEF
+P0604,26,Adult,asthma,India,Asia,Influenza,2024-10-11,0.51,Govt Initiative
+P0605,75,Senior,pregnant,Australia,Oceania,Shingles,2024-06-04,7.42,Govt Initiative
+P0606,84,Senior,diabetes,Canada,North America,Shingles,2024-10-26,9.14,Govt Initiative
+P0607,64,Senior,heart disease,India,Asia,Shingles,2024-04-04,9.46,Govt Initiative
+P0608,59,Adult,heart disease,Japan,Asia,Influenza,2024-01-28,6.84,UNICEF
+P0609,78,Senior,heart disease,Germany,Europe,Shingles,2024-03-01,5.09,CDC
+P0610,21,Adult,asthma,Nigeria,Africa,COVID-19,2024-12-07,5.86,UNICEF
+P0611,44,Adult,heart disease,Canada,North America,COVID-19,2024-07-07,3.61,Govt Initiative
+P0612,62,Senior,asthma,USA,North America,Shingles,2024-06-02,5.76,UNICEF
+P0613,1,Toddler,none,Germany,Europe,MMR,2024-12-23,7.92,Govt Initiative
+P0614,10,Child,heart disease,Germany,Europe,MMR Booster,2024-05-30,2.04,WHO
+P0615,8,Child,none,Brazil,South America,DTaP Booster,2024-03-27,4.09,WHO
+P0616,80,Senior,asthma,Mexico,North America,Shingles,2024-06-19,7.99,UNICEF
+P0617,36,Adult,heart disease,Canada,North America,COVID-19,2024-09-19,1.7,UNICEF
+P0618,22,Adult,none,Mexico,North America,Influenza,2024-02-29,2.13,CDC
+P0619,69,Senior,diabetes,Canada,North America,Shingles,2024-02-17,2.82,Govt Initiative
+P0620,47,Adult,heart disease,Mexico,North America,Influenza,2024-06-07,0.53,UNICEF
+P0621,84,Senior,heart disease,Germany,Europe,Pneumococcal,2024-06-29,7.44,CDC
+P0622,39,Adult,diabetes,India,Asia,Influenza,2024-06-15,3.64,WHO
+P0623,6,Child,none,Japan,Asia,MMR Booster,2024-05-01,7.08,CDC
+P0624,67,Senior,heart disease,Mexico,North America,Pneumococcal,2024-12-21,7.41,CDC
+P0625,34,Adult,asthma,Mexico,North America,COVID-19,2024-10-30,1.45,Govt Initiative
+P0626,15,Teen,diabetes,Germany,Europe,Tdap,2024-12-02,0.64,UNICEF
+P0627,70,Senior,diabetes,Mexico,North America,Shingles,2024-11-01,6.18,Govt Initiative
+P0628,82,Senior,diabetes,Canada,North America,Shingles,2024-08-06,7.39,CDC
+P0629,4,Toddler,none,Japan,Asia,DTaP,2024-05-20,7.75,WHO
+P0630,27,Adult,asthma,Germany,Europe,Influenza,2024-02-16,7.25,WHO
+P0631,37,Adult,pregnant,Japan,Asia,COVID-19,2024-01-31,7.24,CDC
+P0632,47,Adult,heart disease,Mexico,North America,Influenza,2024-05-25,9.07,UNICEF
+P0633,16,Teen,diabetes,India,Asia,HPV,2024-08-06,4.56,CDC
+P0634,71,Senior,asthma,Nigeria,Africa,Pneumococcal,2024-10-31,8.88,UNICEF
+P0635,41,Adult,none,Germany,Europe,COVID-19,2024-09-13,2.43,WHO
+P0636,26,Adult,heart disease,Australia,Oceania,COVID-19,2024-08-02,9.21,WHO
+P0637,62,Senior,pregnant,Mexico,North America,Pneumococcal,2024-09-20,1.8,UNICEF
+P0638,41,Adult,pregnant,Canada,North America,Influenza,2024-11-28,9.91,WHO
+P0639,21,Adult,heart disease,Canada,North America,COVID-19,2024-11-16,6.26,CDC
+P0640,39,Adult,heart disease,Mexico,North America,COVID-19,2024-03-31,8.26,UNICEF
+P0641,59,Adult,asthma,Germany,Europe,COVID-19,2024-08-18,5.82,UNICEF
+P0642,89,Senior,none,France,Europe,Pneumococcal,2024-05-12,0.7,CDC
+P0643,25,Adult,none,Australia,Oceania,Influenza,2024-10-15,6.04,WHO
+P0644,11,Child,pregnant,Canada,North America,MMR Booster,2024-02-24,9.41,WHO
+P0645,41,Adult,none,Australia,Oceania,Influenza,2024-03-01,8.25,Govt Initiative
+P0646,51,Adult,diabetes,Germany,Europe,Influenza,2024-02-29,8.94,WHO
+P0647,53,Adult,heart disease,India,Asia,Influenza,2024-03-08,7.07,CDC
+P0648,3,Toddler,none,USA,North America,MMR,2024-05-06,8.65,WHO
+P0649,48,Adult,heart disease,USA,North America,COVID-19,2024-11-20,3.3,Govt Initiative
+P0650,7,Child,asthma,Nigeria,Africa,DTaP Booster,2024-06-21,7.92,WHO
+P0651,81,Senior,diabetes,Nigeria,Africa,Pneumococcal,2024-05-10,6.85,Govt Initiative
+P0652,60,Senior,pregnant,Japan,Asia,Shingles,2024-02-06,5.27,UNICEF
+P0653,70,Senior,heart disease,Australia,Oceania,Pneumococcal,2024-11-22,4.18,UNICEF
+P0654,46,Adult,none,Brazil,South America,COVID-19,2024-07-07,5.54,WHO
+P0655,33,Adult,heart disease,France,Europe,Influenza,2024-03-13,4.24,Govt Initiative
+P0656,28,Adult,diabetes,Mexico,North America,COVID-19,2024-08-02,9.1,CDC
+P0657,83,Senior,diabetes,Mexico,North America,Pneumococcal,2024-05-20,5.49,WHO
+P0658,82,Senior,heart disease,Japan,Asia,Shingles,2024-04-19,5.9,WHO
+P0659,89,Senior,heart disease,USA,North America,Pneumococcal,2024-10-21,4.57,Govt Initiative
+P0660,14,Teen,diabetes,Nigeria,Africa,Tdap,2024-11-17,2.58,Govt Initiative
+P0661,3,Toddler,heart disease,Mexico,North America,MMR,2024-09-13,9.76,CDC
+P0662,28,Adult,pregnant,Mexico,North America,COVID-19,2024-06-03,0.09,WHO
+P0663,82,Senior,none,Brazil,South America,Shingles,2024-07-06,4.84,Govt Initiative
+P0664,5,Child,none,India,Asia,MMR Booster,2024-11-19,4.23,CDC
+P0665,5,Child,none,Canada,North America,MMR Booster,2024-10-27,5.64,UNICEF
+P0666,67,Senior,heart disease,France,Europe,Shingles,2024-01-11,2.31,UNICEF
+P0667,43,Adult,none,Japan,Asia,COVID-19,2024-06-12,6.13,UNICEF
+P0668,62,Senior,diabetes,France,Europe,Shingles,2024-05-12,8.19,UNICEF
+P0669,15,Teen,diabetes,Brazil,South America,HPV,2024-10-25,3.29,Govt Initiative
+P0670,39,Adult,none,Japan,Asia,COVID-19,2024-02-11,1.57,UNICEF
+P0671,41,Adult,none,Mexico,North America,Influenza,2024-11-30,5.98,WHO
+P0672,25,Adult,diabetes,Nigeria,Africa,COVID-19,2024-11-29,8.41,UNICEF
+P0673,83,Senior,pregnant,France,Europe,Pneumococcal,2024-07-23,5.72,CDC
+P0674,56,Adult,asthma,France,Europe,COVID-19,2024-04-07,0.31,WHO
+P0675,7,Child,pregnant,Nigeria,Africa,DTaP Booster,2024-02-04,4.63,UNICEF
+P0676,84,Senior,none,USA,North America,Shingles,2024-12-11,1.13,CDC
+P0677,21,Adult,asthma,Germany,Europe,Influenza,2024-02-23,2.44,Govt Initiative
+P0678,53,Adult,pregnant,India,Asia,Influenza,2024-01-14,6.43,CDC
+P0679,69,Senior,asthma,USA,North America,Pneumococcal,2024-08-28,6.92,Govt Initiative
+P0680,43,Adult,heart disease,Australia,Oceania,COVID-19,2024-05-29,8.57,Govt Initiative
+P0681,25,Adult,pregnant,France,Europe,COVID-19,2024-12-24,1.16,Govt Initiative
+P0682,8,Child,heart disease,Japan,Asia,MMR Booster,2024-11-29,3.1,UNICEF
+P0683,16,Teen,pregnant,Mexico,North America,Tdap,2024-07-13,1.16,WHO
+P0684,47,Adult,heart disease,India,Asia,COVID-19,2024-10-11,0.64,UNICEF
+P0685,5,Child,diabetes,Australia,Oceania,DTaP Booster,2024-08-02,8.06,CDC
+P0686,73,Senior,none,France,Europe,Pneumococcal,2024-03-19,8.76,UNICEF
+P0687,81,Senior,diabetes,Australia,Oceania,Pneumococcal,2024-02-14,2.64,WHO
+P0688,76,Senior,none,Japan,Asia,Pneumococcal,2024-06-14,3.61,CDC
+P0689,41,Adult,heart disease,Canada,North America,COVID-19,2024-09-05,5.66,WHO
+P0690,24,Adult,heart disease,Canada,North America,Influenza,2024-10-28,6.88,Govt Initiative
+P0691,25,Adult,none,France,Europe,Influenza,2024-02-16,8.12,UNICEF
+P0692,64,Senior,pregnant,USA,North America,Shingles,2024-04-13,3.75,UNICEF
+P0693,34,Adult,diabetes,Brazil,South America,Influenza,2024-07-27,9.23,CDC
+P0694,35,Adult,pregnant,Australia,Oceania,COVID-19,2024-10-18,9.25,Govt Initiative
+P0695,79,Senior,none,Mexico,North America,Pneumococcal,2024-05-10,2.59,UNICEF
+P0696,54,Adult,heart disease,France,Europe,Influenza,2024-05-21,5.28,WHO
+P0697,60,Senior,asthma,USA,North America,Shingles,2024-12-28,1.98,UNICEF
+P0698,89,Senior,none,France,Europe,Shingles,2024-11-23,0.01,CDC
+P0699,25,Adult,pregnant,Australia,Oceania,Influenza,2024-04-08,8.65,Govt Initiative
+P0700,39,Adult,heart disease,Nigeria,Africa,COVID-19,2024-12-02,1.2,CDC
+P0701,90,Senior,asthma,Nigeria,Africa,Pneumococcal,2024-12-04,5.56,CDC
+P0702,48,Adult,pregnant,Mexico,North America,COVID-19,2024-06-17,9.82,UNICEF
+P0703,51,Adult,none,Germany,Europe,COVID-19,2024-04-21,6.09,UNICEF
+P0704,75,Senior,asthma,India,Asia,Shingles,2024-03-25,8.35,CDC
+P0705,17,Teen,heart disease,Australia,Oceania,HPV,2024-07-27,5.96,WHO
+P0706,69,Senior,diabetes,Brazil,South America,Shingles,2024-09-19,9.43,WHO
+P0707,75,Senior,diabetes,Brazil,South America,Pneumococcal,2024-12-14,1.39,WHO
+P0708,7,Child,diabetes,Canada,North America,MMR Booster,2024-03-28,4.46,WHO
+P0709,62,Senior,diabetes,Japan,Asia,Shingles,2024-08-28,7.74,UNICEF
+P0710,29,Adult,pregnant,Germany,Europe,Influenza,2024-04-29,3.3,Govt Initiative
+P0711,55,Adult,asthma,Nigeria,Africa,Influenza,2024-01-04,2.68,WHO
+P0712,72,Senior,asthma,Mexico,North America,Pneumococcal,2024-06-21,5.64,UNICEF
+P0713,45,Adult,diabetes,Japan,Asia,COVID-19,2024-09-08,2.23,UNICEF
+P0714,47,Adult,pregnant,Brazil,South America,Influenza,2024-02-27,8.56,WHO
+P0715,9,Child,diabetes,France,Europe,MMR Booster,2024-04-24,8.12,UNICEF
+P0716,18,Teen,none,India,Asia,Tdap,2024-12-14,1.24,UNICEF
+P0717,26,Adult,none,Japan,Asia,COVID-19,2024-04-16,1.34,CDC
+P0718,87,Senior,heart disease,Nigeria,Africa,Pneumococcal,2024-05-01,9.87,WHO
+P0719,86,Senior,diabetes,India,Asia,Pneumococcal,2024-04-17,7.51,UNICEF
+P0720,77,Senior,asthma,Brazil,South America,Pneumococcal,2024-02-19,6.7,CDC
+P0721,72,Senior,asthma,India,Asia,Shingles,2024-04-30,7.09,UNICEF
+P0722,74,Senior,diabetes,France,Europe,Pneumococcal,2024-08-15,5.1,WHO
+P0723,77,Senior,none,USA,North America,Shingles,2024-12-12,8.18,UNICEF
+P0724,88,Senior,asthma,France,Europe,Shingles,2024-06-25,8.43,UNICEF
+P0725,28,Adult,heart disease,France,Europe,Influenza,2024-01-29,2.59,CDC
+P0726,69,Senior,pregnant,Nigeria,Africa,Shingles,2024-09-25,1.29,CDC
+P0727,52,Adult,none,USA,North America,COVID-19,2024-12-10,5.63,Govt Initiative
+P0728,55,Adult,pregnant,Canada,North America,Influenza,2024-12-31,3.99,Govt Initiative
+P0729,33,Adult,pregnant,Mexico,North America,COVID-19,2024-06-18,7.26,WHO
+P0730,47,Adult,diabetes,Brazil,South America,COVID-19,2024-07-08,0.28,UNICEF
+P0731,47,Adult,pregnant,Australia,Oceania,Influenza,2024-05-09,4.95,WHO
+P0732,32,Adult,asthma,France,Europe,COVID-19,2024-06-24,5.1,UNICEF
+P0733,74,Senior,none,Mexico,North America,Shingles,2024-08-29,7.65,WHO
+P0734,7,Child,heart disease,Nigeria,Africa,MMR Booster,2024-02-13,1.41,CDC
+P0735,84,Senior,heart disease,Germany,Europe,Shingles,2024-03-26,8.08,CDC
+P0736,22,Adult,asthma,Germany,Europe,Influenza,2024-05-04,3.81,UNICEF
+P0737,73,Senior,pregnant,Canada,North America,Shingles,2024-11-08,5.8,Govt Initiative
+P0738,3,Toddler,pregnant,USA,North America,MMR,2024-11-10,6.59,UNICEF
+P0739,13,Teen,heart disease,Nigeria,Africa,Tdap,2024-03-05,3.23,UNICEF
+P0740,90,Senior,none,Canada,North America,Pneumococcal,2024-08-16,8.76,WHO
+P0741,19,Teen,none,Japan,Asia,HPV,2024-12-18,5.98,WHO
+P0742,18,Teen,asthma,Nigeria,Africa,HPV,2024-05-26,0.69,CDC
+P0743,77,Senior,pregnant,Australia,Oceania,Shingles,2024-11-03,3.26,Govt Initiative
+P0744,44,Adult,heart disease,Nigeria,Africa,Influenza,2024-11-04,9.01,CDC
+P0745,70,Senior,asthma,France,Europe,Pneumococcal,2024-02-27,0.5,CDC
+P0746,46,Adult,pregnant,France,Europe,COVID-19,2024-10-01,3.65,WHO
+P0747,79,Senior,pregnant,Australia,Oceania,Shingles,2024-10-18,3.32,WHO
+P0748,30,Adult,none,India,Asia,COVID-19,2024-05-04,7.02,CDC
+P0749,55,Adult,asthma,Mexico,North America,COVID-19,2024-08-01,5.66,CDC
+P0750,9,Child,diabetes,Japan,Asia,DTaP Booster,2024-03-08,1.19,WHO
+P0751,30,Adult,asthma,Japan,Asia,Influenza,2024-01-30,9.88,UNICEF
+P0752,34,Adult,heart disease,Australia,Oceania,COVID-19,2024-03-21,8.47,WHO
+P0753,59,Adult,asthma,Japan,Asia,Influenza,2024-02-22,9.28,WHO
+P0754,85,Senior,asthma,Nigeria,Africa,Shingles,2024-03-15,1.52,Govt Initiative
+P0755,47,Adult,diabetes,Germany,Europe,Influenza,2024-01-30,8.78,CDC
+P0756,84,Senior,none,India,Asia,Pneumococcal,2024-05-22,7.22,CDC
+P0757,32,Adult,heart disease,USA,North America,Influenza,2024-08-25,8.52,CDC
+P0758,47,Adult,diabetes,Brazil,South America,COVID-19,2024-03-07,5.53,UNICEF
+P0759,0,Infant,diabetes,India,Asia,BCG,2024-07-08,6.08,WHO
+P0760,20,Adult,asthma,Brazil,South America,COVID-19,2024-06-26,7.13,Govt Initiative
+P0761,47,Adult,heart disease,Brazil,South America,Influenza,2024-04-11,0.96,CDC
+P0762,4,Toddler,asthma,Brazil,South America,Hib,2024-02-10,6.66,UNICEF
+P0763,43,Adult,none,India,Asia,COVID-19,2024-09-09,9.07,Govt Initiative
+P0764,60,Senior,none,USA,North America,Shingles,2024-08-31,5.07,UNICEF
+P0765,69,Senior,diabetes,India,Asia,Shingles,2024-08-27,1.21,UNICEF
+P0766,14,Teen,diabetes,Nigeria,Africa,Tdap,2024-03-30,7.76,WHO
+P0767,60,Senior,heart disease,Brazil,South America,Pneumococcal,2024-11-23,9.46,UNICEF
+P0768,67,Senior,heart disease,Australia,Oceania,Pneumococcal,2024-04-07,5.28,UNICEF
+P0769,65,Senior,heart disease,India,Asia,Shingles,2024-04-10,7.28,WHO
+P0770,87,Senior,heart disease,Australia,Oceania,Shingles,2024-08-21,5.99,CDC
+P0771,18,Teen,asthma,Canada,North America,Tdap,2024-04-12,8.71,WHO
+P0772,48,Adult,diabetes,Canada,North America,COVID-19,2024-12-02,3.76,Govt Initiative
+P0773,39,Adult,none,Brazil,South America,Influenza,2024-03-26,3.35,UNICEF
+P0774,19,Teen,none,Nigeria,Africa,Tdap,2024-09-08,3.41,UNICEF
+P0775,2,Toddler,heart disease,USA,North America,MMR,2024-03-31,7.51,UNICEF
+P0776,6,Child,asthma,Germany,Europe,MMR Booster,2024-11-17,0.75,CDC
+P0777,26,Adult,asthma,Brazil,South America,Influenza,2024-07-03,8.08,CDC
+P0778,66,Senior,none,Nigeria,Africa,Shingles,2024-10-29,1.47,Govt Initiative
+P0779,10,Child,diabetes,Canada,North America,DTaP Booster,2024-08-08,6.02,UNICEF
+P0780,84,Senior,heart disease,France,Europe,Shingles,2024-01-14,3.75,UNICEF
+P0781,62,Senior,none,India,Asia,Pneumococcal,2024-07-30,4.49,UNICEF
+P0782,18,Teen,none,Japan,Asia,Tdap,2024-06-18,1.54,CDC
+P0783,4,Toddler,asthma,Japan,Asia,DTaP,2024-01-02,0.43,WHO
+P0784,78,Senior,none,India,Asia,Shingles,2024-10-02,3.03,Govt Initiative
+P0785,45,Adult,pregnant,India,Asia,COVID-19,2024-03-11,4.69,WHO
+P0786,63,Senior,none,India,Asia,Pneumococcal,2024-03-25,9.43,CDC
+P0787,89,Senior,heart disease,Nigeria,Africa,Shingles,2024-09-20,7.27,Govt Initiative
+P0788,39,Adult,heart disease,Germany,Europe,Influenza,2024-08-01,5.7,WHO
+P0789,62,Senior,asthma,Brazil,South America,Pneumococcal,2024-03-01,8.64,Govt Initiative
+P0790,51,Adult,asthma,Australia,Oceania,Influenza,2024-11-11,0.46,WHO
+P0791,9,Child,pregnant,Brazil,South America,DTaP Booster,2024-12-22,9.91,WHO
+P0792,12,Child,heart disease,Brazil,South America,DTaP Booster,2024-11-15,6.31,WHO
+P0793,20,Adult,none,Canada,North America,Influenza,2024-01-08,9.95,WHO
+P0794,47,Adult,heart disease,Nigeria,Africa,COVID-19,2024-09-03,2.6,Govt Initiative
+P0795,33,Adult,diabetes,Japan,Asia,COVID-19,2024-04-19,7.24,CDC
+P0796,49,Adult,heart disease,Germany,Europe,Influenza,2024-02-21,8.47,WHO
+P0797,72,Senior,pregnant,USA,North America,Pneumococcal,2024-05-02,2.73,WHO
+P0798,32,Adult,heart disease,India,Asia,COVID-19,2024-01-30,3.37,Govt Initiative
+P0799,38,Adult,pregnant,Japan,Asia,COVID-19,2024-09-02,8.68,UNICEF
+P0800,56,Adult,heart disease,India,Asia,Influenza,2024-08-08,9.6,CDC
+P0801,23,Adult,diabetes,USA,North America,Influenza,2024-08-04,0.75,UNICEF
+P0802,76,Senior,asthma,France,Europe,Shingles,2024-02-12,1.35,WHO
+P0803,29,Adult,none,Mexico,North America,Influenza,2024-07-30,7.96,WHO
+P0804,74,Senior,asthma,Australia,Oceania,Shingles,2024-05-18,8.2,WHO
+P0805,72,Senior,heart disease,Brazil,South America,Shingles,2024-10-08,0.9,Govt Initiative
+P0806,61,Senior,diabetes,Brazil,South America,Pneumococcal,2024-04-19,1.88,UNICEF
+P0807,60,Senior,diabetes,Nigeria,Africa,Shingles,2024-07-19,5.79,WHO
+P0808,65,Senior,none,Mexico,North America,Shingles,2024-04-14,0.96,UNICEF
+P0809,56,Adult,asthma,Canada,North America,COVID-19,2024-08-02,1.81,WHO
+P0810,70,Senior,asthma,France,Europe,Pneumococcal,2024-01-06,9.66,CDC
+P0811,73,Senior,asthma,Germany,Europe,Pneumococcal,2024-07-08,3.91,Govt Initiative
+P0812,11,Child,diabetes,Canada,North America,MMR Booster,2024-08-01,8.08,Govt Initiative
+P0813,22,Adult,asthma,Mexico,North America,COVID-19,2024-04-05,5.12,WHO
+P0814,39,Adult,heart disease,Brazil,South America,COVID-19,2024-01-02,6.71,Govt Initiative
+P0815,82,Senior,asthma,Canada,North America,Pneumococcal,2024-04-11,1.54,Govt Initiative
+P0816,32,Adult,heart disease,Mexico,North America,COVID-19,2024-05-09,3.68,Govt Initiative
+P0817,77,Senior,diabetes,India,Asia,Shingles,2024-11-06,6.08,Govt Initiative
+P0818,24,Adult,diabetes,Brazil,South America,Influenza,2024-04-13,3.21,Govt Initiative
+P0819,81,Senior,none,Germany,Europe,Shingles,2024-05-26,6.05,Govt Initiative
+P0820,44,Adult,diabetes,Mexico,North America,COVID-19,2024-03-01,2.29,UNICEF
+P0821,85,Senior,pregnant,France,Europe,Pneumococcal,2024-11-17,4.49,CDC
+P0822,86,Senior,pregnant,India,Asia,Pneumococcal,2024-10-10,1.63,WHO
+P0823,8,Child,pregnant,USA,North America,MMR Booster,2024-11-21,3.37,CDC
+P0824,18,Teen,none,Australia,Oceania,HPV,2024-01-05,9.08,UNICEF
+P0825,45,Adult,asthma,France,Europe,Influenza,2024-05-23,6.26,Govt Initiative
+P0826,38,Adult,diabetes,Nigeria,Africa,COVID-19,2024-08-03,0.57,CDC
+P0827,6,Child,heart disease,France,Europe,DTaP Booster,2024-02-29,9.16,Govt Initiative
+P0828,6,Child,none,France,Europe,DTaP Booster,2024-09-15,3.63,CDC
+P0829,85,Senior,diabetes,Japan,Asia,Pneumococcal,2024-02-14,0.71,WHO
+P0830,72,Senior,heart disease,USA,North America,Shingles,2024-08-20,2.18,UNICEF
+P0831,38,Adult,heart disease,France,Europe,Influenza,2024-11-23,7.95,UNICEF
+P0832,49,Adult,diabetes,USA,North America,COVID-19,2024-05-08,3.27,Govt Initiative
+P0833,15,Teen,diabetes,France,Europe,Tdap,2024-09-11,2.52,WHO
+P0834,9,Child,asthma,France,Europe,MMR Booster,2024-09-20,3.5,CDC
+P0835,72,Senior,heart disease,Australia,Oceania,Pneumococcal,2024-12-30,9.19,UNICEF
+P0836,61,Senior,diabetes,Brazil,South America,Shingles,2024-09-17,2.23,WHO
+P0837,9,Child,heart disease,France,Europe,MMR Booster,2024-06-17,2.56,WHO
+P0838,73,Senior,none,France,Europe,Shingles,2024-02-17,4.88,WHO
+P0839,44,Adult,asthma,France,Europe,Influenza,2024-03-30,5.22,UNICEF
+P0840,55,Adult,diabetes,USA,North America,COVID-19,2024-10-28,5.05,Govt Initiative
+P0841,88,Senior,none,USA,North America,Shingles,2024-07-07,6.54,Govt Initiative
+P0842,40,Adult,pregnant,Nigeria,Africa,COVID-19,2024-02-20,3.6,UNICEF
+P0843,5,Child,asthma,USA,North America,MMR Booster,2024-11-02,7.64,Govt Initiative
+P0844,36,Adult,diabetes,Australia,Oceania,Influenza,2024-04-03,0.34,UNICEF
+P0845,28,Adult,none,Nigeria,Africa,COVID-19,2024-01-27,6.57,CDC
+P0846,77,Senior,asthma,Japan,Asia,Pneumococcal,2024-04-28,2.96,CDC
+P0847,54,Adult,asthma,Australia,Oceania,Influenza,2024-06-04,2.37,Govt Initiative
+P0848,53,Adult,pregnant,India,Asia,Influenza,2024-12-03,8.04,UNICEF
+P0849,53,Adult,none,Brazil,South America,COVID-19,2024-07-08,8.82,UNICEF
+P0850,45,Adult,asthma,USA,North America,Influenza,2024-07-19,4.42,UNICEF
+P0851,28,Adult,heart disease,Australia,Oceania,COVID-19,2024-03-27,9.81,Govt Initiative
+P0852,35,Adult,heart disease,France,Europe,Influenza,2024-06-07,8.63,Govt Initiative
+P0853,50,Adult,asthma,Germany,Europe,COVID-19,2024-04-17,0.56,UNICEF
+P0854,4,Toddler,heart disease,India,Asia,DTaP,2024-10-28,5.97,UNICEF
+P0855,25,Adult,asthma,Canada,North America,Influenza,2024-05-02,5.89,CDC
+P0856,3,Toddler,pregnant,USA,North America,Hib,2024-08-12,0.98,UNICEF
+P0857,75,Senior,diabetes,Mexico,North America,Shingles,2024-09-05,5.66,Govt Initiative
+P0858,89,Senior,asthma,France,Europe,Shingles,2024-12-19,5.74,UNICEF
+P0859,64,Senior,heart disease,India,Asia,Shingles,2024-04-06,0.5,WHO
+P0860,17,Teen,heart disease,Brazil,South America,HPV,2024-06-09,9.76,CDC
+P0861,71,Senior,diabetes,USA,North America,Pneumococcal,2024-12-23,4.37,CDC
+P0862,82,Senior,pregnant,Brazil,South America,Pneumococcal,2024-09-17,5.92,WHO
+P0863,9,Child,heart disease,Germany,Europe,DTaP Booster,2024-06-03,0.77,UNICEF
+P0864,28,Adult,pregnant,Nigeria,Africa,COVID-19,2024-11-06,7.51,Govt Initiative
+P0865,86,Senior,none,Mexico,North America,Shingles,2024-04-29,1.28,CDC
+P0866,68,Senior,none,India,Asia,Pneumococcal,2024-12-06,1.13,CDC
+P0867,48,Adult,none,India,Asia,COVID-19,2024-12-31,4.67,WHO
+P0868,60,Senior,diabetes,Mexico,North America,Pneumococcal,2024-04-28,7.62,CDC
+P0869,67,Senior,diabetes,Australia,Oceania,Shingles,2024-06-05,2.57,UNICEF
+P0870,66,Senior,pregnant,Australia,Oceania,Pneumococcal,2024-02-24,8.61,WHO
+P0871,53,Adult,heart disease,USA,North America,COVID-19,2024-12-19,1.09,CDC
+P0872,18,Teen,heart disease,Mexico,North America,HPV,2024-12-10,2.07,CDC
+P0873,47,Adult,none,Germany,Europe,Influenza,2024-06-26,3.48,Govt Initiative
+P0874,47,Adult,heart disease,India,Asia,Influenza,2024-08-03,6.93,UNICEF
+P0875,30,Adult,pregnant,Brazil,South America,Influenza,2024-10-30,9.07,UNICEF
+P0876,27,Adult,asthma,Brazil,South America,Influenza,2024-12-01,2.74,WHO
+P0877,75,Senior,none,Nigeria,Africa,Shingles,2024-12-05,2.07,WHO
+P0878,71,Senior,diabetes,Nigeria,Africa,Shingles,2024-01-12,8.87,CDC
+P0879,49,Adult,none,USA,North America,COVID-19,2024-05-03,1.63,WHO
+P0880,81,Senior,pregnant,Nigeria,Africa,Shingles,2024-08-31,8.17,CDC
+P0881,31,Adult,pregnant,Germany,Europe,COVID-19,2024-10-07,9.34,Govt Initiative
+P0882,14,Teen,diabetes,India,Asia,Tdap,2024-09-02,9.19,UNICEF
+P0883,33,Adult,none,Canada,North America,COVID-19,2024-11-27,6.01,WHO
+P0884,87,Senior,none,India,Asia,Pneumococcal,2024-11-30,3.52,WHO
+P0885,72,Senior,none,Canada,North America,Shingles,2024-03-30,5.96,CDC
+P0886,0,Infant,heart disease,Nigeria,Africa,Polio,2024-09-12,0.71,WHO
+P0887,14,Teen,asthma,Mexico,North America,Tdap,2024-01-05,5.31,WHO
+P0888,44,Adult,none,Australia,Oceania,COVID-19,2024-09-19,0.02,UNICEF
+P0889,4,Toddler,asthma,India,Asia,MMR,2024-09-13,4.82,CDC
+P0890,7,Child,pregnant,France,Europe,MMR Booster,2024-09-12,4.11,WHO
+P0891,33,Adult,diabetes,Canada,North America,Influenza,2024-07-10,0.07,Govt Initiative
+P0892,32,Adult,diabetes,Canada,North America,COVID-19,2024-01-06,5.28,Govt Initiative
+P0893,22,Adult,none,Brazil,South America,COVID-19,2024-10-14,7.58,WHO
+P0894,35,Adult,none,USA,North America,Influenza,2024-05-29,1.99,WHO
+P0895,7,Child,diabetes,Germany,Europe,MMR Booster,2024-07-15,4.63,UNICEF
+P0896,15,Teen,none,USA,North America,HPV,2024-09-16,5.05,UNICEF
+P0897,56,Adult,heart disease,USA,North America,COVID-19,2024-09-23,7.11,WHO
+P0898,88,Senior,heart disease,Japan,Asia,Shingles,2024-11-08,9.97,Govt Initiative
+P0899,76,Senior,diabetes,Mexico,North America,Shingles,2024-06-20,5.98,WHO
+P0900,14,Teen,none,India,Asia,HPV,2024-08-26,9.74,Govt Initiative
+P0901,83,Senior,heart disease,Australia,Oceania,Pneumococcal,2024-09-23,3.48,Govt Initiative
+P0902,45,Adult,diabetes,Brazil,South America,Influenza,2024-01-31,1.58,UNICEF
+P0903,80,Senior,none,France,Europe,Shingles,2024-07-30,1.4,Govt Initiative
+P0904,46,Adult,none,Brazil,South America,COVID-19,2024-07-14,7.09,Govt Initiative
+P0905,59,Adult,none,Nigeria,Africa,COVID-19,2024-11-19,2.59,Govt Initiative
+P0906,78,Senior,asthma,USA,North America,Shingles,2024-02-20,9.68,WHO
+P0907,12,Child,diabetes,Japan,Asia,MMR Booster,2024-10-30,4.51,Govt Initiative
+P0908,13,Teen,diabetes,Nigeria,Africa,HPV,2024-06-08,8.09,WHO
+P0909,41,Adult,pregnant,France,Europe,COVID-19,2024-12-13,9.29,WHO
+P0910,40,Adult,none,USA,North America,COVID-19,2024-07-27,4.24,Govt Initiative
+P0911,10,Child,none,USA,North America,DTaP Booster,2024-04-10,4.97,Govt Initiative
+P0912,1,Toddler,none,Canada,North America,DTaP,2024-08-23,6.22,Govt Initiative
+P0913,77,Senior,asthma,Brazil,South America,Pneumococcal,2024-09-20,9.48,UNICEF
+P0914,85,Senior,none,Mexico,North America,Shingles,2024-05-15,0.79,Govt Initiative
+P0915,5,Child,heart disease,Japan,Asia,DTaP Booster,2024-01-05,0.02,WHO
+P0916,63,Senior,diabetes,Nigeria,Africa,Shingles,2024-08-09,7.5,UNICEF
+P0917,42,Adult,heart disease,Nigeria,Africa,Influenza,2024-01-12,6.05,CDC
+P0918,88,Senior,heart disease,France,Europe,Pneumococcal,2024-08-24,6.16,CDC
+P0919,0,Infant,diabetes,Germany,Europe,Hepatitis B,2024-11-27,2.71,CDC
+P0920,11,Child,heart disease,Germany,Europe,MMR Booster,2024-03-01,1.74,WHO
+P0921,2,Toddler,diabetes,Australia,Oceania,Hib,2024-03-27,5.71,Govt Initiative
+P0922,2,Toddler,none,Australia,Oceania,MMR,2024-02-07,4.64,Govt Initiative
+P0923,4,Toddler,none,Mexico,North America,MMR,2024-02-25,8.46,WHO
+P0924,29,Adult,none,Australia,Oceania,Influenza,2024-05-14,5.54,WHO
+P0925,15,Teen,pregnant,USA,North America,HPV,2024-10-19,0.68,Govt Initiative
+P0926,25,Adult,heart disease,Japan,Asia,COVID-19,2024-04-07,9.78,WHO
+P0927,12,Child,heart disease,USA,North America,MMR Booster,2024-12-08,8.65,Govt Initiative
+P0928,4,Toddler,diabetes,USA,North America,DTaP,2024-12-14,8.99,UNICEF
+P0929,52,Adult,none,Mexico,North America,COVID-19,2024-07-06,9.53,WHO
+P0930,67,Senior,heart disease,India,Asia,Shingles,2024-05-18,9.44,WHO
+P0931,62,Senior,none,France,Europe,Shingles,2024-11-12,3.79,Govt Initiative
+P0932,42,Adult,pregnant,France,Europe,COVID-19,2024-10-23,2.79,WHO
+P0933,18,Teen,none,India,Asia,HPV,2024-07-03,0.88,WHO
+P0934,2,Toddler,diabetes,USA,North America,MMR,2024-03-06,4.88,CDC
+P0935,11,Child,diabetes,Germany,Europe,DTaP Booster,2024-12-15,4.3,UNICEF
+P0936,76,Senior,heart disease,Canada,North America,Pneumococcal,2024-02-10,9.69,UNICEF
+P0937,29,Adult,diabetes,Japan,Asia,COVID-19,2024-01-13,1.13,UNICEF
+P0938,82,Senior,none,Germany,Europe,Shingles,2024-06-06,0.51,Govt Initiative
+P0939,9,Child,pregnant,Australia,Oceania,MMR Booster,2024-10-12,8.88,WHO
+P0940,22,Adult,diabetes,India,Asia,Influenza,2024-02-03,4.57,WHO
+P0941,18,Teen,none,Australia,Oceania,Tdap,2024-12-29,8.91,CDC
+P0942,33,Adult,pregnant,USA,North America,Influenza,2024-03-10,3.06,WHO
+P0943,49,Adult,pregnant,Australia,Oceania,COVID-19,2024-10-07,9.42,WHO
+P0944,11,Child,asthma,Nigeria,Africa,MMR Booster,2024-05-16,2.04,Govt Initiative
+P0945,84,Senior,heart disease,Mexico,North America,Shingles,2024-04-10,1.77,UNICEF
+P0946,2,Toddler,none,Australia,Oceania,Hib,2024-07-01,2.64,Govt Initiative
+P0947,62,Senior,diabetes,Mexico,North America,Shingles,2024-07-15,1.08,WHO
+P0948,38,Adult,pregnant,Brazil,South America,COVID-19,2024-02-07,7.63,Govt Initiative
+P0949,31,Adult,asthma,Japan,Asia,Influenza,2024-06-02,3.28,Govt Initiative
+P0950,18,Teen,heart disease,India,Asia,HPV,2024-06-20,2.47,UNICEF
+P0951,33,Adult,pregnant,Australia,Oceania,Influenza,2024-09-10,1.29,WHO
+P0952,56,Adult,pregnant,Nigeria,Africa,Influenza,2024-09-23,6.1,CDC
+P0953,42,Adult,diabetes,Nigeria,Africa,Influenza,2024-08-29,2.56,CDC
+P0954,76,Senior,pregnant,USA,North America,Pneumococcal,2024-07-26,2.31,CDC
+P0955,74,Senior,asthma,Brazil,South America,Shingles,2024-04-08,7.46,CDC
+P0956,58,Adult,diabetes,India,Asia,Influenza,2024-01-05,4.73,WHO
+P0957,14,Teen,heart disease,Nigeria,Africa,Tdap,2024-12-19,8.64,WHO
+P0958,51,Adult,none,India,Asia,COVID-19,2024-05-12,2.9,CDC
+P0959,64,Senior,asthma,Australia,Oceania,Shingles,2024-12-24,6.69,WHO
+P0960,55,Adult,heart disease,Nigeria,Africa,Influenza,2024-07-08,7.13,Govt Initiative
+P0961,10,Child,none,India,Asia,MMR Booster,2024-02-23,7.05,Govt Initiative
+P0962,74,Senior,pregnant,India,Asia,Shingles,2024-05-25,7.23,Govt Initiative
+P0963,59,Adult,none,Australia,Oceania,COVID-19,2024-06-28,3.95,UNICEF
+P0964,53,Adult,asthma,Mexico,North America,COVID-19,2024-02-29,8.43,Govt Initiative
+P0965,49,Adult,asthma,Germany,Europe,Influenza,2024-10-25,0.84,WHO
+P0966,5,Child,heart disease,Nigeria,Africa,DTaP Booster,2024-10-19,3.7,Govt Initiative
+P0967,22,Adult,none,Japan,Asia,Influenza,2024-06-14,2.04,Govt Initiative
+P0968,80,Senior,pregnant,Brazil,South America,Pneumococcal,2024-10-04,1.59,Govt Initiative
+P0969,57,Adult,heart disease,Brazil,South America,Influenza,2024-06-01,1.2,UNICEF
+P0970,87,Senior,none,India,Asia,Pneumococcal,2024-05-24,6.6,Govt Initiative
+P0971,49,Adult,heart disease,Germany,Europe,COVID-19,2024-12-13,8.04,Govt Initiative
+P0972,70,Senior,heart disease,Japan,Asia,Shingles,2024-04-17,6.41,WHO
+P0973,8,Child,pregnant,Australia,Oceania,DTaP Booster,2024-04-13,3.49,WHO
+P0974,34,Adult,heart disease,USA,North America,Influenza,2024-09-02,3.42,Govt Initiative
+P0975,69,Senior,none,India,Asia,Pneumococcal,2024-07-22,5.63,Govt Initiative
+P0976,15,Teen,asthma,France,Europe,Tdap,2024-12-27,2.75,CDC
+P0977,79,Senior,heart disease,Nigeria,Africa,Shingles,2024-09-09,7.4,UNICEF
+P0978,1,Toddler,diabetes,Canada,North America,MMR,2024-12-04,1.25,Govt Initiative
+P0979,63,Senior,diabetes,Mexico,North America,Pneumococcal,2024-11-24,5.33,CDC
+P0980,37,Adult,asthma,Nigeria,Africa,Influenza,2024-03-26,9.09,Govt Initiative
+P0981,53,Adult,heart disease,Canada,North America,COVID-19,2024-08-28,1.1,CDC
+P0982,60,Senior,asthma,France,Europe,Pneumococcal,2024-04-22,3.76,UNICEF
+P0983,80,Senior,heart disease,Mexico,North America,Pneumococcal,2024-04-17,2.21,WHO
+P0984,83,Senior,heart disease,Japan,Asia,Shingles,2024-05-16,7.02,CDC
+P0985,37,Adult,asthma,Canada,North America,Influenza,2024-01-25,7.41,Govt Initiative
+P0986,36,Adult,none,Japan,Asia,Influenza,2024-01-04,5.9,UNICEF
+P0987,7,Child,heart disease,France,Europe,DTaP Booster,2024-09-06,7.37,WHO
+P0988,41,Adult,asthma,Australia,Oceania,COVID-19,2024-01-30,6.53,Govt Initiative
+P0989,62,Senior,none,Japan,Asia,Pneumococcal,2024-10-03,5.86,Govt Initiative
+P0990,31,Adult,asthma,Mexico,North America,Influenza,2024-02-23,2.23,Govt Initiative
+P0991,0,Infant,pregnant,Mexico,North America,Hepatitis B,2024-08-15,9.66,UNICEF
+P0992,76,Senior,asthma,Brazil,South America,Shingles,2024-06-30,1.43,UNICEF
+P0993,10,Child,pregnant,Canada,North America,MMR Booster,2024-10-11,5.43,UNICEF
+P0994,6,Child,asthma,Germany,Europe,MMR Booster,2024-06-06,3.28,UNICEF
+P0995,89,Senior,heart disease,Mexico,North America,Pneumococcal,2024-11-01,0.72,CDC
+P0996,46,Adult,diabetes,Nigeria,Africa,Influenza,2024-03-19,8.68,CDC
+P0997,28,Adult,diabetes,Canada,North America,Influenza,2024-12-07,8.37,UNICEF
+P0998,57,Adult,none,Japan,Asia,COVID-19,2024-05-26,4.9,UNICEF
+P0999,83,Senior,heart disease,Japan,Asia,Pneumococcal,2024-05-28,8.65,WHO
